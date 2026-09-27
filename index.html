@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F3F5F8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1220" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Trips">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<title>Trips</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{--bg:#F3F5F8;--card:#fff;--ink:#14213D;--ink-2:#4B5568;--rule:#DCE1EA;--teal:#0F766E;--teal-soft:#D7F0EC;--amber:#B45309;--amber-soft:#FBEBD2;--red:#B91C1C;--red-soft:#FADADA;--lay:#E8ECF3;
+    box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1220;--card:#141D31;--ink:#E7EBF3;--ink-2:#A3ADC2;--rule:#26314A;--teal:#2DD4BF;--teal-soft:#123A38;--amber:#F5B14A;--amber-soft:#3B2A12;--red:#F87171;--red-soft:#3D1A1A;--lay:#1C2740}}
+  :root[data-theme="dark"]{--bg:#0B1220;--card:#141D31;--ink:#E7EBF3;--ink-2:#A3ADC2;--rule:#26314A;--teal:#2DD4BF;--teal-soft:#123A38;--amber:#F5B14A;--amber-soft:#3B2A12;--red:#F87171;--red-soft:#3D1A1A;--lay:#1C2740}
+  html{scroll-padding-top:env(safe-area-inset-top,0px)} *{box-sizing:inherit}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Sora",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.5;font-variant-numeric:tabular-nums}
+  main{max-width:640px;margin:0 auto;padding:20px 16px 48px}
+  .hero{padding:12px 0 22px}.hero .kicker{color:var(--ink-2);font-size:14px;margin:0 0 6px}
+  .hero h1{font-size:34px;line-height:1.1;font-weight:700;margin:0 0 6px;letter-spacing:-.01em}
+  .hero .dates{font-size:17px;color:var(--ink-2);margin:0}
+  .hero .count{display:inline-block;margin-top:14px;background:var(--teal-soft);color:var(--teal);font-weight:600;border-radius:999px;padding:6px 12px;font-size:14px}
+  h2.month{font-size:13px;font-weight:600;color:var(--ink-2);margin:22px 0 8px}
+  details{background:var(--card);border:1px solid var(--rule);border-radius:16px;margin:0 0 12px;overflow:hidden}
+  summary{list-style:none;cursor:pointer;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  summary::-webkit-details-marker{display:none} summary:focus-visible{outline:2px solid var(--teal);outline-offset:-2px}
+  .trip-name{font-weight:600;font-size:16px;margin:0}.trip-when{color:var(--ink-2);font-size:14px;margin:2px 0 0}
+  .chev{width:22px;height:22px;flex:none;color:var(--ink-2);transition:transform .2s} details[open] .chev{transform:rotate(180deg)}
+  @media (prefers-reduced-motion:reduce){.chev{transition:none}}
+  .body{border-top:1px solid var(--rule);padding:6px 16px 16px}
+  .day{margin:14px 0 4px;font-size:13px;font-weight:600;color:var(--ink-2)}
+  .row{display:grid;grid-template-columns:52px 1fr;gap:0 12px;padding:8px 0}
+  .t{font-weight:600;font-size:15px;line-height:1.35;text-align:right;padding-top:1px}.t small{display:block;font-weight:400;font-size:12px;color:var(--ink-2)}
+  .what{font-size:15px;line-height:1.4}.what b{font-weight:600}
+  .meta{color:var(--ink-2);font-size:13px;margin-top:2px}
+  .dur{color:var(--ink-2);font-size:13px}
+  .lay{display:flex;align-items:center;gap:10px;margin:4px 0 4px 64px;padding:8px 12px;border-radius:10px;background:var(--lay);font-weight:600;font-size:15px}.lay span{color:var(--ink-2);font-weight:400;font-size:13px}
+  .st{display:inline-block;font-size:12px;font-weight:600;border-radius:6px;padding:1px 7px;margin-left:6px;vertical-align:1px;white-space:nowrap}
+  .ok{background:var(--teal-soft);color:var(--teal)}.wait{background:var(--amber-soft);color:var(--amber)}.gap{background:var(--red-soft);color:var(--red)}
+  .acts{display:flex;gap:8px;margin-top:8px;flex-wrap:wrap}
+  .btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--rule);background:var(--card);color:var(--ink);border-radius:10px;padding:7px 12px;font:inherit;font-size:14px;font-weight:600;text-decoration:none;cursor:pointer}
+  .btn.primary{background:var(--teal);border-color:var(--teal);color:#fff}
+  .btn code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14px;letter-spacing:.06em}
+  .btn.copied{border-color:var(--teal);color:var(--teal)}
+  .stay{margin:10px 0 4px;padding:12px 14px;border-radius:12px;background:var(--bg)}.stay p{margin:0}.stay .name{font-weight:600}
+  .stay ul{margin:6px 0 0;padding-left:18px;color:var(--ink-2);font-size:13px}
+  .plan{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:14px 16px;margin:0 0 12px}
+  .plan ul{margin:0;padding-left:18px;color:var(--ink-2)}.plan li{margin:4px 0}.plan li b{color:var(--ink);font-weight:600}
+  footer{color:var(--ink-2);font-size:12px;margin-top:28px}
+  /* gate */
+  #gate{position:fixed;inset:0;background:var(--bg);display:flex;align-items:center;justify-content:center;padding:24px;z-index:9}
+  #gate form{width:100%;max-width:320px;text-align:center}
+  #gate h1{font-size:22px;margin:0 0 6px}#gate p{color:var(--ink-2);margin:0 0 18px;font-size:14px}
+  #pin{width:100%;font:inherit;font-size:28px;letter-spacing:.4em;text-align:center;padding:12px;border:1px solid var(--rule);border-radius:12px;background:var(--card);color:var(--ink)}
+  #gate button{margin-top:12px;width:100%}
+  #gate .err{color:var(--red);font-size:13px;margin-top:10px;min-height:18px}
+  .hidden{display:none}
+</style>
+</head>
+<body>
+<div id="gate"><form id="gateForm" autocomplete="off">
+  <h1>Trips</h1><p>Enter your PIN</p>
+  <input id="pin" inputmode="numeric" pattern="[0-9]*" maxlength="6" autofocus aria-label="PIN">
+  <button class="btn primary" type="submit">Open</button>
+  <div class="err" id="err"></div>
+</form></div>
+<main id="app" class="hidden"></main>
+<script>
+const HASH = "9bfb0f02f4353294d9e5fa585bc3b793a7821923ecb509ce52830f68fbd543b9", SALT = "trips-lv-2026";
+async function sha(s){const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,'0')).join('')}
+function ok(){try{return localStorage.getItem('trips_ok')===HASH}catch(e){return false}}
+document.getElementById('gateForm').addEventListener('submit',async e=>{e.preventDefault();const v=document.getElementById('pin').value.trim();
+  if(await sha(v+SALT)===HASH){try{localStorage.setItem('trips_ok',HASH)}catch(e){};start()}else{document.getElementById('err').textContent='Wrong PIN';document.getElementById('pin').value=''}});
+if(ok()) start();
+
+const CHECKIN={LX:'https://www.swiss.com/us/en/prepare/check-in',KL:'https://www.klm.com/check-in',AF:'https://www.airfrance.com/check-in',DL:'https://www.delta.com/checkin',BA:'https://www.britishairways.com/travel/managebooking/public/en_gb',FR:'https://www.ryanair.com/gb/en/check-in',EW:'https://www.eurowings.com/en/check-in.html',TK:'https://www.turkishairlines.com/en-int/flights/check-in/',DE:'https://www.condor.com/eu/check-in.jsp',OS:'https://www.austrian.com/check-in',LH:'https://www.lufthansa.com/check-in',VY:'https://www.vueling.com/en/manage-booking',IB:'https://www.iberia.com/gb/online-checkin/'};
+const STATUS={booked:['ok','booked'],included:['ok','included'],tobook:['wait','to book'],pending:['wait','pending'],missing:['gap','not booked']};
+function hhmm(iso){return iso.slice(11,16)}
+function dateOf(iso){return iso.slice(0,10)}
+function mins(iso){const d=new Date(iso);return d.getTime()/60000}
+function fmtDur(m){const h=Math.floor(m/60),mm=m%60;return h?`${h}h${mm?String(mm).padStart(2,'0'):''}`:`${mm}m`}
+function chip(s,txt){if(!s)return '';const [c,l]=STATUS[s]||['wait',s];return `<span class="st ${c}">${txt||l}</span>`}
+function esc(s){return String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function todayISO(){const d=new Date();return d.toISOString().slice(0,10)}
+function longDate(iso){const d=new Date(iso+'T12:00:00Z');return d.toLocaleDateString('en-GB',{weekday:'short',day:'numeric',month:'short',timeZone:'UTC'})}
+function renderTrip(tr,openDefault){
+  let html='',lastDay=null,prev=null;
+  for(const it of tr.items){
+    if(it.day!==lastDay){html+=`<p class="day">${esc(it.day)}</p>`;lastDay=it.day}
+    if(it.t==='flight'){
+      if(prev&&prev.t==='flight'&&prev.tc===it.fc){const gap=mins(it.dep)-mins(prev.arr);if(gap>0&&gap<24*60)html+=`<div class="lay">⏱ ${fmtDur(gap)} in ${esc(it.from.replace(/ T\d.*$/,'').replace(/ Terminal.*$/,''))}</div>`}
+      const plus=dateOf(it.arr)!==dateOf(it.dep)?' (+1)':'';
+      const dur=fmtDur(mins(it.arr)-mins(it.dep));
+      const ci=CHECKIN[it.al];
+      html+=`<div class="row"><div class="t">${hhmm(it.dep)}<small>→ ${hhmm(it.arr)}${plus}</small></div>
+        <div class="what"><b>${esc(it.no)}</b> ${esc(it.from)} → ${esc(it.to)} ${chip(it.status)}
+        <div class="meta">${esc(it.note||'')}${it.note?' · ':''}<span class="dur">${dur}</span></div>
+        ${it.ref?`<div class="acts">${ci?`<a class="btn primary" href="${ci}" target="_blank" rel="noopener">Check in</a>`:''}<button class="btn copy" data-ref="${esc(it.ref)}" type="button">📋 <code>${esc(it.ref)}</code></button></div>`:''}
+        </div></div>`;
+    }else if(it.t==='event'){
+      html+=`<div class="row"><div class="t">${esc(it.time||'—')}</div><div class="what">${esc(it.text)} ${chip(it.status,it.statusText)}${it.note?`<div class="meta">${esc(it.note)}</div>`:''}</div></div>`;
+    }else if(it.t==='stay'){
+      html+=`<div class="stay"><p class="name">${esc(it.name)} ${chip(it.status,it.statusText)}</p><p class="meta">${esc(it.note||'')}</p>${it.bullets?`<ul>${it.bullets.map(b=>`<li>${esc(b)}</li>`).join('')}</ul>`:''}${it.ref?`<div class="acts"><button class="btn copy" data-ref="${esc(it.ref)}" type="button">📋 <code>${esc(it.ref)}</code></button></div>`:''}</div>`;
+    }
+    prev=it;
+  }
+  return `<details${openDefault?' open':''}><summary><div><p class="trip-name">${esc(tr.name)}</p><p class="trip-when">${longDate(tr.start)} – ${longDate(tr.end)}${tr.people?' · '+esc(tr.people):''}</p></div><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></summary><div class="body">${html}</div></details>`;
+}
+async function start(){
+  document.getElementById('gate').classList.add('hidden');const app=document.getElementById('app');app.classList.remove('hidden');
+  let data;try{const r=await fetch('data.json',{cache:'no-cache'});data=await r.json()}catch(e){app.innerHTML='<p>Could not load trips. Are you offline?</p>';return}
+  const today=todayISO();
+  const upcoming=data.trips.filter(t=>t.end>=today).sort((a,b)=>a.start.localeCompare(b.start));
+  const current=upcoming.find(t=>t.start<=today&&t.end>=today);
+  const next=current||upcoming[0];
+  let hero='';
+  if(next){const days=Math.round((new Date(next.start)-new Date(today))/86400000);
+    hero=`<section class="hero"><p class="kicker">${current?"You're away now":'Next up'}</p><h1>${esc(next.name)}</h1><p class="dates">${longDate(next.start)} → ${longDate(next.end)}${next.sub?' · '+esc(next.sub):''}</p><span class="count">${current?'home '+longDate(next.end):(days===0?'today':days===1?'tomorrow':'in '+days+' days')}</span></section>`}
+  let months='',lastM='';
+  let list='';
+  upcoming.forEach((t,i)=>{const m=t===current?'Now':new Date(t.start+'T12:00:00Z').toLocaleDateString('en-GB',{month:'long',timeZone:'UTC'});if(m!==lastM){list+=`<h2 class="month">${m}</h2>`;lastM=m}list+=renderTrip(t,i===0)});
+  const plan=data.plan?.length?`<h2 class="month">Trips to plan</h2><section class="plan"><ul>${data.plan.map(p=>`<li><b>${esc(p.name)}</b> · ${esc(p.when)}</li>`).join('')}</ul></section>`:'';
+  const open=data.open?.length?`<h2 class="month">Still open</h2><section class="plan"><ul>${data.open.map(o=>`<li>${esc(o)}</li>`).join('')}</ul></section>`:'';
+  app.innerHTML=hero+list+plan+open+`<footer>Updated ${longDate(data.updated)}</footer>`;
+  app.addEventListener('click',async e=>{const b=e.target.closest('.copy');if(!b)return;const ref=b.dataset.ref;try{await navigator.clipboard.writeText(ref)}catch(err){const ta=document.createElement('textarea');ta.value=ref;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove()}
+    b.classList.add('copied');const c=b.querySelector('code');const old=c.textContent;c.textContent='Copied';setTimeout(()=>{c.textContent=old;b.classList.remove('copied')},1400)});
+}
+if('serviceWorker' in navigator){navigator.serviceWorker.register('sw.js').catch(()=>{})}
+</script>
+</body>
+</html>
