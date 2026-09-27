@@ -1,0 +1,89 @@
+{
+  "updated": "2026-09-27",
+  "trips": [
+    {
+      "id": "atl",
+      "name": "Montreal → Petit Le Mans",
+      "sub": "Petit Le Mans, Road Atlanta",
+      "start": "2026-09-26", "end": "2026-10-05",
+      "people": "with Jacqueline & Emily",
+      "items": [
+        {"day": "Sat 26 Sep", "t": "flight", "no": "AF1493", "al": "AF", "from": "Valencia", "fc": "VLC", "to": "Paris CDG 2G", "tc": "CDG", "dep": "2026-09-26T06:40:00+02:00", "arr": "2026-09-26T08:55:00+02:00", "status": "booked", "ref": "ZAZ6VH", "note": "Air France · 23 kg bag each"},
+        {"day": "Sat 26 Sep", "t": "flight", "no": "AF342", "al": "AF", "from": "Paris CDG 2E", "fc": "CDG", "to": "Montreal", "tc": "YUL", "dep": "2026-09-26T10:30:00+02:00", "arr": "2026-09-26T12:00:00-04:00", "status": "booked", "ref": "ZAZ6VH", "note": "Air France"},
+        {"day": "Sat 26 – Tue 29 Sep", "t": "event", "text": "Montreal"},
+        {"day": "Wed 30 Sep", "t": "flight", "no": "DL2643", "al": "DL", "from": "Montreal", "fc": "YUL", "to": "Atlanta, Terminal I", "tc": "ATL", "dep": "2026-09-30T07:00:00-04:00", "arr": "2026-09-30T09:45:00-04:00", "status": "booked", "ref": "ZAZ6VH", "note": "Delta · 23 kg bag each"},
+        {"day": "Thu 1 – Sat 3 Oct", "t": "event", "text": "Petit Le Mans · Road Atlanta"},
+        {"day": "Sun 4 Oct", "t": "flight", "no": "KL622", "al": "KL", "from": "Atlanta, Terminal I", "fc": "ATL", "to": "Amsterdam", "tc": "AMS", "dep": "2026-10-04T22:40:00-04:00", "arr": "2026-10-05T13:10:00+02:00", "status": "booked", "ref": "ZAZ6VH", "note": "KLM · 23 kg bag each"},
+        {"day": "Mon 5 Oct", "t": "flight", "no": "KL1531", "al": "KL", "from": "Amsterdam", "fc": "AMS", "to": "Valencia", "tc": "VLC", "dep": "2026-10-05T14:10:00+02:00", "arr": "2026-10-05T16:35:00+02:00", "status": "booked", "ref": "ZAZ6VH", "note": "KLM"}
+      ]
+    },
+    {
+      "id": "zrh",
+      "name": "Fitness check · Zürich",
+      "sub": "Day trip",
+      "start": "2026-10-06", "end": "2026-10-06",
+      "people": "",
+      "items": [
+        {"day": "Tue 6 Oct", "t": "flight", "no": "LX2147", "al": "LX", "from": "Valencia", "fc": "VLC", "to": "Zürich", "tc": "ZRH", "dep": "2026-10-06T06:00:00+02:00", "arr": "2026-10-06T08:10:00+02:00", "status": "booked", "ref": "ZUINWO", "note": "SWISS · BCD ZUGRRW · no checked bag"},
+        {"day": "Tue 6 Oct", "t": "flight", "no": "LX2176", "al": "LX", "from": "Zürich", "fc": "ZRH", "to": "Alicante", "tc": "ALC", "dep": "2026-10-06T16:50:00+02:00", "arr": "2026-10-06T19:10:00+02:00", "status": "booked", "ref": "ZUINWO", "note": "SWISS · lands Alicante, not Valencia"}
+      ]
+    },
+    {
+      "id": "mtc-oct",
+      "name": "MTC sim + McLaren Paris",
+      "sub": "Woking · Paris",
+      "start": "2026-10-13", "end": "2026-10-15",
+      "people": "",
+      "items": [
+        {"day": "Tue 13 Oct", "t": "flight", "no": "BA409", "al": "BA", "from": "Valencia", "fc": "VLC", "to": "London Heathrow T3", "tc": "LHR", "dep": "2026-10-13T20:30:00+02:00", "arr": "2026-10-13T21:55:00+01:00", "status": "booked", "ref": "YKQKX3", "note": "British Airways · 23 kg bag · hotel near MTC conf. 3540804286"},
+        {"day": "Wed 14 Oct", "t": "event", "time": "am", "text": "Uber hotel → MTC · sim day"},
+        {"day": "Wed 14 Oct", "t": "event", "time": "15:00", "text": "Car MTC → Heathrow T4", "note": "Executive car · ref 061219", "status": "booked"},
+        {"day": "Wed 14 Oct", "t": "flight", "no": "AF1281", "al": "AF", "from": "London Heathrow T4", "fc": "LHR", "to": "Paris CDG 2E", "tc": "CDG", "dep": "2026-10-14T17:35:00+01:00", "arr": "2026-10-14T19:55:00+02:00", "status": "booked", "ref": "Y2EWKX", "note": "Air France · business · seat 1D · Paris hotel & ground via McLaren"},
+        {"day": "Thu 15 Oct", "t": "event", "text": "McLaren Paris"},
+        {"day": "Thu 15 Oct", "t": "flight", "no": "AF1420", "al": "AF", "from": "Paris CDG 2G", "fc": "CDG", "to": "Valencia", "tc": "VLC", "dep": "2026-10-15T14:15:00+02:00", "arr": "2026-10-15T16:15:00+02:00", "status": "booked", "ref": "Y2EWKX", "note": "Air France (HOP) · business · seat 2A"}
+      ]
+    },
+    {
+      "id": "ricard",
+      "name": "Test · Paul Ricard",
+      "sub": "Le Castellet",
+      "start": "2026-10-17", "end": "2026-10-21",
+      "people": "",
+      "items": [
+        {"day": "Sat 17 Oct", "t": "flight", "no": "FR1771", "al": "FR", "from": "Valencia", "fc": "VLC", "to": "Marseille", "tc": "MRS", "dep": "2026-10-17T09:15:00+02:00", "arr": "2026-10-17T10:40:00+02:00", "status": "booked", "ref": "N1JZSS", "note": "Ryanair · seat 11C · 20 kg bag + priority · check in via businesstravel@mclaren.com"},
+        {"day": "Sun 18 – Tue 20 Oct", "t": "event", "text": "Test days · driving until midnight on the 20th", "note": "Hire car — McLaren chasing", "status": "pending"},
+        {"day": "Wed 21 Oct", "t": "flight", "no": "FR6455", "al": "FR", "from": "Marseille", "fc": "MRS", "to": "Alicante", "tc": "ALC", "dep": "2026-10-21T15:25:00+02:00", "arr": "2026-10-21T17:00:00+02:00", "status": "booked", "ref": "UYVS8E", "note": "Ryanair · seat 14D · 20 kg bag + priority"}
+      ]
+    },
+    {
+      "id": "mdv",
+      "name": "Germany → Maldives → MTC",
+      "sub": "Gili Lankanfushi",
+      "start": "2026-10-23", "end": "2026-11-03",
+      "people": "with Jacqueline",
+      "items": [
+        {"day": "Fri 23 Oct", "t": "flight", "no": "EW2531", "al": "EW", "from": "Valencia", "fc": "VLC", "to": "Stuttgart", "tc": "STR", "dep": "2026-10-23T20:30:00+02:00", "arr": "2026-10-23T22:45:00+02:00", "status": "booked", "ref": "GL97WW", "note": "Eurowings · seat 1A · 23 kg bag · with Jacqueline & Emily · to Waiblingen"},
+        {"day": "Sat 24 Oct", "t": "flight", "no": "LX1169", "al": "LX", "from": "Stuttgart T3", "fc": "STR", "to": "Zürich", "tc": "ZRH", "dep": "2026-10-24T15:05:00+02:00", "arr": "2026-10-24T15:50:00+02:00", "status": "booked", "ref": "9LL7QF", "note": "Helvetic for SWISS · Comfort Plus · 23 kg bag each"},
+        {"day": "Sat 24 Oct", "t": "flight", "no": "LX8066", "al": "LX", "from": "Zürich", "fc": "ZRH", "to": "Malé T1", "tc": "MLE", "dep": "2026-10-24T19:10:00+02:00", "arr": "2026-10-25T08:00:00+05:00", "status": "booked", "ref": "9LL7QF", "note": "Edelweiss for SWISS · A350"},
+        {"day": "Sun 25 Oct", "t": "event", "time": "08:00", "text": "Land Malé · speedboat to Gili, 20 min", "status": "included"},
+        {"day": "Sun 25 Oct – Sun 1 Nov", "t": "stay", "name": "Gili Lankanfushi · Gili Lagoon Villa", "status": "pending", "statusText": "Jessica finalising", "note": "7 nights · breakfast & dinner · Jetty 3, sunset side", "bullets": ["Offer confirmed with Mohamed (reservations)", "Roundtrip speedboat, Louis Roederer on arrival, spa gift, sunset dhoni cruise, $100 credit, afternoon tea", "Check-out 12:00 · late check-out possible at a charge"]},
+        {"day": "Sun 1 Nov", "t": "event", "time": "12:00", "text": "Check out · use the resort until the evening boat"},
+        {"day": "Sun 1 Nov", "t": "flight", "no": "TK735", "al": "TK", "from": "Malé", "fc": "MLE", "to": "Istanbul", "tc": "IST", "dep": "2026-11-01T21:55:00+05:00", "arr": "2026-11-02T04:30:00+03:00", "status": "booked", "ref": "SED4FE", "note": "Turkish · seats 10A/10B · 23 kg bag each · both of you"},
+        {"day": "Mon 2 Nov", "t": "flight", "no": "TK1979", "al": "TK", "from": "Istanbul", "fc": "IST", "to": "London Heathrow", "tc": "LHR", "dep": "2026-11-02T08:40:00+03:00", "arr": "2026-11-02T09:45:00+00:00", "status": "booked", "ref": "S3ELQ8", "note": "Turkish · Jacqueline on TK1701 to Stuttgart 08:30 (ref VMDZCQ) · Woking that evening"},
+        {"day": "Tue 3 Nov", "t": "event", "text": "SIM at MTC, Woking"}
+      ]
+    }
+  ],
+  "plan": [
+    {"name": "Test Portimão", "when": "Tue 24 – Wed 25 Nov"},
+    {"name": "Test Jerez", "when": "Mon 30 Nov – Wed 2 Dec"},
+    {"name": "SIM Porsche + Night of Champions", "when": "Thu 3 – Sat 5 Dec"},
+    {"name": "Test Daytona", "when": "Fri 11 – Sat 12 Dec"},
+    {"name": "McLaren London", "when": "Mon 14 Dec"}
+  ],
+  "open": [
+    "Gili villa — Jessica finalising with Mohamed",
+    "Paul Ricard hire car — McLaren chasing",
+    "Zürich: BCD asked to swap LX2147 for KL1923 Amsterdam → Zürich on Mon 5 Oct"
+  ]
+}
