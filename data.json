@@ -12,6 +12,7 @@
         {"day": "Sat 26 Sep", "t": "flight", "no": "AF342", "al": "AF", "from": "Paris CDG 2E", "fc": "CDG", "to": "Montreal", "tc": "YUL", "dep": "2026-09-26T10:30:00+02:00", "arr": "2026-09-26T12:00:00-04:00", "status": "booked", "ref": "ZAZ6VH", "note": "Air France"},
         {"day": "Sat 26 – Tue 29 Sep", "t": "event", "text": "Montreal"},
         {"day": "Wed 30 Sep", "t": "flight", "no": "DL2643", "al": "DL", "from": "Montreal", "fc": "YUL", "to": "Atlanta, Terminal I", "tc": "ATL", "dep": "2026-09-30T07:00:00-04:00", "arr": "2026-09-30T09:45:00-04:00", "status": "booked", "ref": "ZAZ6VH", "note": "Delta · 23 kg bag each"},
+        {"day": "Wed 30 Sep – Sun 4 Oct", "t": "stay", "name": "Holiday Inn Express & Suites Braselton", "status": "booked", "note": "4 nights · ~10 min to Road Atlanta · 2069 Hwy 211 NW, Braselton GA"},
         {"day": "Thu 1 – Sat 3 Oct", "t": "event", "text": "Petit Le Mans · Road Atlanta"},
         {"day": "Sun 4 Oct", "t": "flight", "no": "KL622", "al": "KL", "from": "Atlanta, Terminal I", "fc": "ATL", "to": "Amsterdam", "tc": "AMS", "dep": "2026-10-04T22:40:00-04:00", "arr": "2026-10-05T13:10:00+02:00", "status": "booked", "ref": "ZAZ6VH", "note": "KLM · 23 kg bag each"},
         {"day": "Mon 5 Oct", "t": "flight", "no": "KL1531", "al": "KL", "from": "Amsterdam", "fc": "AMS", "to": "Valencia", "tc": "VLC", "dep": "2026-10-05T14:10:00+02:00", "arr": "2026-10-05T16:35:00+02:00", "status": "booked", "ref": "ZAZ6VH", "note": "KLM"}
