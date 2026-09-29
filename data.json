@@ -67,7 +67,7 @@
         {"day": "Sat 24 Oct", "t": "flight", "no": "LX1169", "al": "LX", "from": "Stuttgart T3", "fc": "STR", "to": "Zürich", "tc": "ZRH", "dep": "2026-10-24T15:05:00+02:00", "arr": "2026-10-24T15:50:00+02:00", "status": "booked", "ref": "9LL7QF", "note": "Helvetic for SWISS · Comfort Plus · 23 kg bag each"},
         {"day": "Sat 24 Oct", "t": "flight", "no": "LX8066", "al": "LX", "from": "Zürich", "fc": "ZRH", "to": "Malé T1", "tc": "MLE", "dep": "2026-10-24T19:10:00+02:00", "arr": "2026-10-25T08:00:00+05:00", "status": "booked", "ref": "9LL7QF", "note": "Edelweiss for SWISS · A350"},
         {"day": "Sun 25 Oct", "t": "event", "time": "08:00", "text": "Land Malé · speedboat to Gili, 20 min", "status": "included"},
-        {"day": "Sun 25 Oct – Sun 1 Nov", "t": "stay", "name": "Gili Lankanfushi · Gili Lagoon Villa", "status": "pending", "statusText": "Jessica finalising", "note": "7 nights · breakfast & dinner · Jetty 3, sunset side", "bullets": ["Offer confirmed with Mohamed (reservations)", "Roundtrip speedboat, Louis Roederer on arrival, spa gift, sunset dhoni cruise, $100 credit, afternoon tea", "Check-out 12:00 · late check-out possible at a charge"]},
+        {"day": "Sun 25 Oct – Sun 1 Nov", "t": "stay", "name": "Gili Lankanfushi · Gili Lagoon Villa", "status": "booked", "ref": "1182017", "note": "7 nights · breakfast & dinner at Kashiveli · Jetty 3, sunset side · check-in 14:00, check-out 12:00", "bullets": ["Gili conf. #1182017 · Penguin ref 7931 · non-refundable", "Roundtrip speedboat, Louis Roederer on arrival, spa gift, sunset dhoni cruise, $100 credit, afternoon tea", "Late check-out possible at a charge"]},
         {"day": "Sun 1 Nov", "t": "event", "time": "12:00", "text": "Check out · use the resort until the evening boat"},
         {"day": "Sun 1 Nov", "t": "flight", "no": "TK735", "al": "TK", "from": "Malé", "fc": "MLE", "to": "Istanbul", "tc": "IST", "dep": "2026-11-01T21:55:00+05:00", "arr": "2026-11-02T04:30:00+03:00", "status": "booked", "ref": "SED4FE", "note": "Turkish · seats 10A/10B · 23 kg bag each · both of you"},
         {"day": "Mon 2 Nov", "t": "flight", "no": "TK1979", "al": "TK", "from": "Istanbul", "fc": "IST", "to": "London Heathrow", "tc": "LHR", "dep": "2026-11-02T08:40:00+03:00", "arr": "2026-11-02T09:45:00+00:00", "status": "booked", "ref": "S3ELQ8", "note": "Turkish · Jacqueline on TK1701 to Stuttgart 08:30 (ref VMDZCQ) · Woking that evening"},
@@ -83,8 +83,8 @@
     {"name": "McLaren London", "when": "Mon 14 Dec"}
   ],
   "open": [
-    "Gili villa — Jessica finalising with Mohamed",
+
     "Paul Ricard hire car — McLaren chasing",
-    "Zürich: BCD asked to swap LX2147 for KL1923 Amsterdam → Zürich on Mon 5 Oct"
+    "Zürich: book own Amsterdam → Zürich for Mon 5 Oct, and get SWISS to keep LX2176 home"
   ]
 }
