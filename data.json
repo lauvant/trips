@@ -85,6 +85,21 @@
           "status": "booked",
           "ref": "ZAZ6VH",
           "note": "KLM · 23 kg bag each"
+        },
+        {
+          "day": "Mon 5 Oct",
+          "t": "flight",
+          "no": "KL1923",
+          "al": "KL",
+          "from": "Amsterdam",
+          "fc": "AMS",
+          "to": "Zürich",
+          "tc": "ZRH",
+          "dep": "2026-10-05T15:20:00+02:00",
+          "arr": "2026-10-05T16:45:00+02:00",
+          "status": "booked",
+          "ref": "Z6JURH",
+          "note": "KLM · economy · seat 06B"
         }
       ]
     },
