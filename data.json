@@ -85,46 +85,50 @@
           "status": "booked",
           "ref": "ZAZ6VH",
           "note": "KLM · 23 kg bag each"
-        },
-        {
-          "day": "Mon 5 Oct",
-          "t": "flight",
-          "no": "KL1531",
-          "al": "KL",
-          "from": "Amsterdam",
-          "fc": "AMS",
-          "to": "Valencia",
-          "tc": "VLC",
-          "dep": "2026-10-05T14:10:00+02:00",
-          "arr": "2026-10-05T16:35:00+02:00",
-          "status": "booked",
-          "ref": "ZAZ6VH",
-          "note": "KLM"
         }
       ]
     },
     {
       "id": "zrh",
       "name": "Fitness check · Zürich",
-      "sub": "Day trip",
-      "start": "2026-10-06",
+      "sub": "Season check · Balgrist",
+      "start": "2026-10-05",
       "end": "2026-10-06",
       "people": "",
       "items": [
         {
-          "day": "Tue 6 Oct",
+          "day": "Mon 5 Oct",
           "t": "flight",
-          "no": "LX2147",
-          "al": "LX",
-          "from": "Valencia",
-          "fc": "VLC",
-          "to": "Zurich",
+          "no": "KL1923",
+          "al": "KL",
+          "from": "Amsterdam",
+          "fc": "AMS",
+          "to": "Zürich",
           "tc": "ZRH",
-          "dep": "2026-10-06T06:00:00+02:00",
-          "arr": "2026-10-06T08:10:00+02:00",
+          "dep": "2026-10-05T15:20:00+02:00",
+          "arr": "2026-10-05T16:45:00+02:00",
           "status": "booked",
-          "ref": "ZUINWO",
-          "note": "Swiss Intl Air Lines · economy (W) · Airbus A320"
+          "ref": "Z6JURH",
+          "note": "KLM · seat 6B · hand luggage · booked on Flying Blue miles"
+        },
+        {
+          "day": "Mon 5 – Tue 6 Oct",
+          "t": "stay",
+          "name": "Motel One Zürich",
+          "status": "booked",
+          "ref": "6323050467",
+          "note": "Superior Double · pay at hotel · free cancellation until Sat 3 Oct · breakfast extra",
+          "bullets": [
+            "Stockerstrasse 61, Enge · ~20 min to Balgrist",
+            "Check-in from 15:00 · check-out by 12:00"
+          ]
+        },
+        {
+          "day": "Tue 6 Oct",
+          "t": "event",
+          "time": "09:30",
+          "text": "Season check · Balgrist University Clinic",
+          "note": "Forchstrasse 319 · until 13:30"
         },
         {
           "day": "Tue 6 Oct",
@@ -404,7 +408,6 @@
     }
   ],
   "open": [
-    "Paul Ricard hire car — McLaren chasing",
-    "Zürich: book own Amsterdam → Zürich for Mon 5 Oct, and get SWISS to keep LX2176 home"
+    "Paul Ricard hire car — McLaren chasing"
   ]
 }
