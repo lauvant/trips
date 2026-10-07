@@ -232,28 +232,6 @@
         {
           "day": "Sat 17 Oct",
           "t": "flight",
-          "no": "FR1771",
-          "al": "FR",
-          "from": "Valencia",
-          "fc": "VLC",
-          "to": "Marseille",
-          "tc": "MRS",
-          "dep": "2026-10-17T09:15:00+02:00",
-          "arr": "2026-10-17T10:40:00+02:00",
-          "status": "booked",
-          "ref": "N1JZSS",
-          "note": "Ryanair · seat 11C · 20 kg bag + priority · check in via businesstravel@mclaren.com"
-        },
-        {
-          "day": "Sun 18 – Tue 20 Oct",
-          "t": "event",
-          "text": "Test days · driving until midnight on the 20th",
-          "note": "Hire car — McLaren chasing",
-          "status": "pending"
-        },
-        {
-          "day": "Sat 17 Oct",
-          "t": "flight",
           "no": "FR6496",
           "al": "FR",
           "from": "Alicante",
@@ -265,6 +243,13 @@
           "status": "booked",
           "ref": "E58D3T",
           "note": "Ryanair · Priority & 2 Cabin Bags · seat 02A"
+        },
+        {
+          "day": "Sun 18 – Tue 20 Oct",
+          "t": "event",
+          "text": "Test days · driving until midnight on the 20th",
+          "note": "Hire car — McLaren chasing",
+          "status": "pending"
         },
         {
           "day": "Wed 21 Oct",
