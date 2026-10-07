@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-07",
   "trips": [
     {
       "id": "atl",
@@ -250,6 +250,21 @@
           "text": "Test days · driving until midnight on the 20th",
           "note": "Hire car — McLaren chasing",
           "status": "pending"
+        },
+        {
+          "day": "Sat 17 Oct",
+          "t": "flight",
+          "no": "FR6496",
+          "al": "FR",
+          "from": "Alicante",
+          "fc": "ALC",
+          "to": "Marseille",
+          "tc": "MRS",
+          "dep": "2026-10-17T21:00:00+02:00",
+          "arr": "2026-10-17T22:35:00+02:00",
+          "status": "booked",
+          "ref": "E58D3T",
+          "note": "Ryanair · Priority & 2 Cabin Bags · seat 02A"
         },
         {
           "day": "Wed 21 Oct",
