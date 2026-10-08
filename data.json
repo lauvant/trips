@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "trips": [
     {
       "id": "atl",
@@ -168,7 +168,23 @@
           "arr": "2026-10-13T21:55:00+01:00",
           "status": "booked",
           "ref": "YKQKX3",
-          "note": "British Airways · 23 kg bag · hotel near MTC conf. 3540804286"
+          "note": "British Airways · 23 kg bag"
+        },
+        {
+          "day": "Tue 13 Oct",
+          "t": "event",
+          "time": "21:55",
+          "text": "Transfer Heathrow → Hilton Woking",
+          "note": "EA #61230",
+          "status": "booked"
+        },
+        {
+          "day": "Tue 13 – Wed 14 Oct",
+          "t": "stay",
+          "name": "Hilton Woking",
+          "status": "booked",
+          "ref": "4401483319000",
+          "note": "1 night · booked by McLaren"
         },
         {
           "day": "Wed 14 Oct",
@@ -181,7 +197,7 @@
           "t": "event",
           "time": "15:00",
           "text": "Car MTC → Heathrow T4",
-          "note": "Executive car · ref 061219",
+          "note": "EA #61219 · with James",
           "status": "booked"
         },
         {
@@ -198,6 +214,13 @@
           "status": "booked",
           "ref": "Y2EWKX",
           "note": "Air France · business · seat 1D · Paris hotel & ground via McLaren"
+        },
+        {
+          "day": "Wed 14 – Thu 15 Oct",
+          "t": "stay",
+          "name": "Pullman Paris Montparnasse",
+          "status": "booked",
+          "note": "1 night · 19 Rue du Commandant René Mouchotte, 75014 · Paris transport via Taome / Schneider"
         },
         {
           "day": "Thu 15 Oct",
@@ -245,11 +268,31 @@
           "note": "Ryanair · Priority & 2 Cabin Bags · seat 02A"
         },
         {
+          "day": "Sat 17 Oct",
+          "t": "event",
+          "time": "22:35",
+          "text": "Hertz pick-up · Marseille Airport",
+          "note": "ref L729E558046",
+          "status": "booked"
+        },
+        {
+          "day": "Sat 17 – Wed 21 Oct",
+          "t": "stay",
+          "name": "Grand Prix Hotel",
+          "status": "booked",
+          "note": "4 nights · c/o Ash · booked by McLaren"
+        },
+        {
           "day": "Sun 18 – Tue 20 Oct",
           "t": "event",
-          "text": "Test days · driving until midnight on the 20th",
-          "note": "Hire car — McLaren chasing",
-          "status": "pending"
+          "text": "Test days · driving until midnight on the 20th"
+        },
+        {
+          "day": "Wed 21 Oct",
+          "t": "event",
+          "time": "13:25",
+          "text": "Hertz drop-off · Marseille Airport",
+          "note": "ref L729E558046"
         },
         {
           "day": "Wed 21 Oct",
@@ -407,7 +450,5 @@
       "when": "Mon 14 Dec"
     }
   ],
-  "open": [
-    "Paul Ricard hire car — McLaren chasing"
-  ]
+  "open": []
 }
