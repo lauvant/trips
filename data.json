@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-13",
   "trips": [
     {
       "id": "atl",
@@ -424,6 +424,31 @@
           "day": "Tue 3 Nov",
           "t": "event",
           "text": "SIM at MTC, Woking"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-12-23",
+      "name": "Baden-Baden",
+      "sub": "",
+      "start": "2026-12-23",
+      "end": "2026-12-23",
+      "people": "",
+      "items": [
+        {
+          "day": "Wed 23 Dec",
+          "t": "flight",
+          "no": "FR5959",
+          "al": "FR",
+          "from": "Alicante",
+          "fc": "ALC",
+          "to": "Baden-Baden",
+          "tc": "FKB",
+          "dep": "2026-12-23T06:05:00+01:00",
+          "arr": "2026-12-23T08:30:00+01:00",
+          "status": "booked",
+          "ref": "GB6W5B",
+          "note": "Ryanair · seat 02F · Checked Bag 20kg · Priority & 2 Cabin Bags · Plus fare"
         }
       ]
     }
