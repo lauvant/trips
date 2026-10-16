@@ -459,6 +459,137 @@
           "note": "Ryanair · seat 02F · Checked Bag 20kg · Priority & 2 Cabin Bags · Plus fare"
         }
       ]
+    },
+    {
+      "id": "bali",
+      "name": "Bali Holiday",
+      "sub": "Germany · Bali · Lombok",
+      "start": "2026-12-23",
+      "end": "2027-01-08",
+      "people": "Laurens, Jacqueline, Emily",
+      "items": [
+        {
+          "day": "Wed 23 Dec",
+          "t": "flight",
+          "no": "Ryanair",
+          "al": "FR",
+          "from": "Alicante",
+          "fc": "ALC",
+          "to": "Karlsruhe/Baden-Baden",
+          "tc": "FKB",
+          "dep": "2026-12-23T06:05:00+01:00",
+          "arr": "2026-12-23T08:30:00+01:00",
+          "status": "pending",
+          "statusText": "to book",
+          "note": "Nonstop · ~1h15 drive to Stuttgart"
+        },
+        {
+          "day": "Wed 23 – Sat 26 Dec",
+          "t": "event",
+          "text": "Christmas in Germany"
+        },
+        {
+          "day": "Sat 26 Dec",
+          "t": "flight",
+          "no": "TK1706",
+          "al": "TK",
+          "from": "Stuttgart",
+          "fc": "STR",
+          "to": "Istanbul",
+          "tc": "IST",
+          "dep": "2026-12-26T18:50:00+01:00",
+          "arr": "2026-12-26T23:50:00+03:00",
+          "status": "pending",
+          "statusText": "via World of Travel",
+          "note": "Turkish Airlines · economy"
+        },
+        {
+          "day": "Sun 27 Dec",
+          "t": "flight",
+          "no": "TK66",
+          "al": "TK",
+          "from": "Istanbul",
+          "fc": "IST",
+          "to": "Bali",
+          "tc": "DPS",
+          "dep": "2026-12-27T01:55:00+03:00",
+          "arr": "2026-12-27T19:30:00+08:00",
+          "status": "pending",
+          "statusText": "via World of Travel",
+          "note": "Turkish Airlines · lands 50 min before the family"
+        },
+        {
+          "day": "Sun 27 – Thu 31 Dec",
+          "t": "stay",
+          "name": "COMO Shambhala Estate, Ubud",
+          "status": "booked",
+          "note": "4 nights · with the family · World of Travel"
+        },
+        {
+          "day": "Thu 31 Dec – Sun 3 Jan",
+          "t": "stay",
+          "name": "The Seminyak Beach Resort & Spa",
+          "status": "booked",
+          "note": "3 nights · New Year's Eve · World of Travel"
+        },
+        {
+          "day": "Sun 3 Jan",
+          "t": "flight",
+          "no": "IW1856",
+          "al": "IW",
+          "from": "Bali",
+          "fc": "DPS",
+          "to": "Lombok",
+          "tc": "LOP",
+          "dep": "2027-01-03T11:10:00+08:00",
+          "arr": "2027-01-03T12:00:00+08:00",
+          "status": "booked",
+          "note": "Wings Air · with the family · World of Travel"
+        },
+        {
+          "day": "Sun 3 – Thu 7 Jan",
+          "t": "stay",
+          "name": "House of Herring, Mawun Beach (Lombok)",
+          "status": "booked",
+          "note": "4 nights · World of Travel"
+        },
+        {
+          "day": "Thu 7 Jan",
+          "t": "event",
+          "text": "Lombok → Bali with the family",
+          "note": "Flight time to be confirmed"
+        },
+        {
+          "day": "Thu 7 Jan",
+          "t": "flight",
+          "no": "TK67",
+          "al": "TK",
+          "from": "Bali",
+          "fc": "DPS",
+          "to": "Istanbul",
+          "tc": "IST",
+          "dep": "2027-01-07T21:10:00+08:00",
+          "arr": "2027-01-08T05:40:00+03:00",
+          "status": "pending",
+          "statusText": "via World of Travel",
+          "note": "Turkish Airlines · economy"
+        },
+        {
+          "day": "Fri 8 Jan",
+          "t": "flight",
+          "no": "TK1301",
+          "al": "TK",
+          "from": "Istanbul",
+          "fc": "IST",
+          "to": "Valencia",
+          "tc": "VLC",
+          "dep": "2027-01-08T08:50:00+03:00",
+          "arr": "2027-01-08T10:55:00+01:00",
+          "status": "pending",
+          "statusText": "via World of Travel",
+          "note": "Turkish Airlines · economy"
+        }
+      ]
     }
   ],
   "plan": [
