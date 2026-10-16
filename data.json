@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13",
+  "updated": "2026-10-16",
   "trips": [
     {
       "id": "atl",
@@ -308,6 +308,14 @@
           "status": "booked",
           "ref": "UYVS8E",
           "note": "Ryanair · seat 14D · 20 kg bag + priority"
+        },
+        {
+          "day": "Sat 17 Oct – Sun 18 Oct",
+          "t": "stay",
+          "name": "Le Fregate Provence",
+          "status": "booked",
+          "ref": "6528060450",
+          "note": "1 night · Superior Double Room with Sea View · breakfast included"
         }
       ]
     },
