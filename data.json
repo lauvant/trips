@@ -276,6 +276,21 @@
           "status": "booked"
         },
         {
+          "day": "Sat 17 – Sun 18 Oct",
+          "t": "stay",
+          "name": "Le Frégate Provence",
+          "status": "booked",
+          "ref": "6528060450",
+          "note": "Sea-view room · breakfast included · golf on site · 24h reception"
+        },
+        {
+          "day": "Sun 18 Oct",
+          "t": "event",
+          "time": "09:00",
+          "text": "Golf lesson · Le Frégate (Frégalon) with Dominique",
+          "note": "Arrive 08:45 · track meeting 13:30"
+        },
+        {
           "day": "Sat 17 – Wed 21 Oct",
           "t": "stay",
           "name": "Grand Prix Hotel",
@@ -308,14 +323,6 @@
           "status": "booked",
           "ref": "UYVS8E",
           "note": "Ryanair · seat 14D · 20 kg bag + priority"
-        },
-        {
-          "day": "Sat 17 Oct – Sun 18 Oct",
-          "t": "stay",
-          "name": "Le Fregate Provence",
-          "status": "booked",
-          "ref": "6528060450",
-          "note": "1 night · Superior Double Room with Sea View · breakfast included"
         }
       ]
     },
@@ -436,31 +443,6 @@
       ]
     },
     {
-      "id": "auto-2026-12-23",
-      "name": "Baden-Baden",
-      "sub": "",
-      "start": "2026-12-23",
-      "end": "2026-12-23",
-      "people": "",
-      "items": [
-        {
-          "day": "Wed 23 Dec",
-          "t": "flight",
-          "no": "FR5959",
-          "al": "FR",
-          "from": "Alicante",
-          "fc": "ALC",
-          "to": "Baden-Baden",
-          "tc": "FKB",
-          "dep": "2026-12-23T06:05:00+01:00",
-          "arr": "2026-12-23T08:30:00+01:00",
-          "status": "booked",
-          "ref": "GB6W5B",
-          "note": "Ryanair · seat 02F · Checked Bag 20kg · Priority & 2 Cabin Bags · Plus fare"
-        }
-      ]
-    },
-    {
       "id": "bali",
       "name": "Bali Holiday",
       "sub": "Germany · Bali · Lombok",
@@ -471,7 +453,7 @@
         {
           "day": "Wed 23 Dec",
           "t": "flight",
-          "no": "Ryanair",
+          "no": "FR5959",
           "al": "FR",
           "from": "Alicante",
           "fc": "ALC",
@@ -479,9 +461,9 @@
           "tc": "FKB",
           "dep": "2026-12-23T06:05:00+01:00",
           "arr": "2026-12-23T08:30:00+01:00",
-          "status": "pending",
-          "statusText": "to book",
-          "note": "Nonstop · ~1h15 drive to Stuttgart"
+          "status": "booked",
+          "ref": "GB6W5B",
+          "note": "Ryanair · seat 02F · Checked Bag 20kg · Priority & 2 Cabin Bags · Plus fare · ~1h15 drive to Stuttgart"
         },
         {
           "day": "Wed 23 – Sat 26 Dec",
