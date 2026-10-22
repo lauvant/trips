@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-22",
   "trips": [
     {
       "id": "atl",
@@ -439,6 +439,111 @@
           "day": "Tue 3 Nov",
           "t": "event",
           "text": "SIM at MTC, Woking"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-12-06",
+      "name": "NOC",
+      "sub": "",
+      "start": "2026-12-06",
+      "end": "2026-12-06",
+      "people": "",
+      "items": [
+        {
+          "day": "Sun 6 Dec",
+          "t": "flight",
+          "no": "EW2530",
+          "al": "EW",
+          "from": "Stuttgart",
+          "fc": "STR",
+          "to": "Valencia",
+          "tc": "VLC",
+          "dep": "2026-12-06T12:10:00+01:00",
+          "arr": "2026-12-06T14:20:00+01:00",
+          "status": "booked",
+          "ref": "VICM6C",
+          "note": "Eurowings · Airbus A319 · Basic fare · underseat bag included"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-12-08",
+      "name": "VLC-AMS-MCO-CDG-VLC · Dec 2026",
+      "sub": "",
+      "start": "2026-12-08",
+      "end": "2026-12-08",
+      "people": "",
+      "items": [
+        {
+          "day": "Tue 8 Dec",
+          "t": "flight",
+          "no": "DL9289",
+          "al": "DL",
+          "from": "Valencia",
+          "fc": "VLC",
+          "to": "Amsterdam",
+          "tc": "AMS",
+          "dep": "2026-12-08T06:00:00+01:00",
+          "arr": "2026-12-08T08:40:00+01:00",
+          "status": "booked",
+          "ref": "GVN2BM",
+          "note": "Operated by KLM Cityhopper · Business/First · seat 3F · breakfast"
+        },
+        {
+          "day": "Tue 8 Dec",
+          "t": "flight",
+          "no": "DL91",
+          "al": "DL",
+          "from": "Amsterdam",
+          "fc": "AMS",
+          "to": "Orlando Intl Terminal B",
+          "tc": "MCO",
+          "dep": "2026-12-08T13:00:00+01:00",
+          "arr": "2026-12-08T17:05:00-05:00",
+          "status": "booked",
+          "ref": "GVN2BM",
+          "note": "Business/First · seat 1J · lunch"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-12-11",
+      "name": "Test Daytona",
+      "sub": "",
+      "start": "2026-12-11",
+      "end": "2026-12-12",
+      "people": "",
+      "items": [
+        {
+          "day": "Fri 11 Dec",
+          "t": "flight",
+          "no": "DL8768",
+          "al": "DL",
+          "from": "Orlando Intl Terminal C",
+          "fc": "MCO",
+          "to": "Paris Charles de Gaulle Terminal 2E",
+          "tc": "CDG",
+          "dep": "2026-12-11T23:00:00-05:00",
+          "arr": "2026-12-12T13:25:00+01:00",
+          "status": "booked",
+          "ref": "GVN2BM",
+          "note": "Operated by Air France · Business/First · breakfast"
+        },
+        {
+          "day": "Sat 12 Dec",
+          "t": "flight",
+          "no": "DL8348",
+          "al": "DL",
+          "from": "Paris Charles de Gaulle Terminal 2G",
+          "fc": "CDG",
+          "to": "Valencia",
+          "tc": "VLC",
+          "dep": "2026-12-12T15:50:00+01:00",
+          "arr": "2026-12-12T17:50:00+01:00",
+          "status": "booked",
+          "ref": "GVN2BM",
+          "note": "Operated by HOP · Business/First · seat 1A"
         }
       ]
     },
