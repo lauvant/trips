@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-11-02",
   "trips": [
     {
       "id": "atl",
@@ -329,7 +329,7 @@
     {
       "id": "mdv",
       "name": "Germany → Maldives → MTC",
-      "sub": "Gili Lankanfushi",
+      "sub": "Gili Lankanfushi · SIM MTC",
       "start": "2026-10-23",
       "end": "2026-11-03",
       "people": "with Jacqueline",
@@ -402,7 +402,6 @@
         {
           "day": "Sun 1 Nov",
           "t": "event",
-          "time": "12:00",
           "text": "Check out · use the resort until the evening boat"
         },
         {
@@ -410,15 +409,23 @@
           "t": "flight",
           "no": "TK735",
           "al": "TK",
-          "from": "Malé",
+          "from": "Malé, Terminal 1",
           "fc": "MLE",
           "to": "Istanbul",
           "tc": "IST",
-          "dep": "2026-11-01T21:55:00+05:00",
-          "arr": "2026-11-02T04:30:00+03:00",
+          "dep": "2026-11-01T22:35:00+05:00",
+          "arr": "2026-11-02T05:10:00+03:00",
           "status": "booked",
           "ref": "SED4FE",
-          "note": "Turkish · seats 10A/10B · 23 kg bag each · both of you"
+          "note": "Turkish · seats 10A/10B · 23 kg bag each · with Jacqueline"
+        },
+        {
+          "day": "Mon 2 Nov",
+          "t": "stay",
+          "name": "YOTELAIR Istanbul Airport (airside)",
+          "status": "booked",
+          "ref": "847019",
+          "note": "05:00–08:00 · in the duty-free area · gate D13 about 5–10 min"
         },
         {
           "day": "Mon 2 Nov",
@@ -427,29 +434,86 @@
           "al": "TK",
           "from": "Istanbul",
           "fc": "IST",
-          "to": "London Heathrow",
+          "to": "London Heathrow T2",
           "tc": "LHR",
           "dep": "2026-11-02T08:40:00+03:00",
           "arr": "2026-11-02T09:45:00+00:00",
           "status": "booked",
           "ref": "S3ELQ8",
-          "note": "Turkish · Jacqueline on TK1701 to Stuttgart 08:30 (ref VMDZCQ) · Woking that evening"
+          "note": "Turkish · 23 kg bag · Jacqueline on TK1701 to Stuttgart"
+        },
+        {
+          "day": "Mon 2 Nov",
+          "t": "event",
+          "text": "Transfer Heathrow T2 → MTC (H Block)",
+          "status": "booked",
+          "ref": "061633",
+          "note": "Booked by McLaren · driver waits on landing"
+        },
+        {
+          "day": "Mon 2 Nov",
+          "t": "event",
+          "text": "SIM MTC",
+          "note": "McLaren Technology Centre, Woking"
+        },
+        {
+          "day": "Mon 2 Nov",
+          "t": "event",
+          "text": "Uber MTC → Hilton Woking",
+          "note": "McLaren Uber Flexi link · when you finish"
+        },
+        {
+          "day": "Mon 2 – Tue 3 Nov",
+          "t": "stay",
+          "name": "Hilton Woking",
+          "status": "booked",
+          "ref": "3111017656",
+          "note": "1 night · King room · booked by McLaren · Church Street West, Woking"
         },
         {
           "day": "Tue 3 Nov",
           "t": "event",
-          "text": "SIM at MTC, Woking"
+          "text": "Uber Hilton Woking → MTC",
+          "note": "McLaren Uber Flexi link · morning"
+        },
+        {
+          "day": "Tue 3 Nov",
+          "t": "event",
+          "text": "Transfer MTC (B Block) → Heathrow T3",
+          "status": "booked",
+          "ref": "061634",
+          "note": "Booked by McLaren · 13:00"
+        },
+        {
+          "day": "Tue 3 Nov",
+          "t": "flight",
+          "no": "BA410",
+          "al": "BA",
+          "from": "London Heathrow T3",
+          "fc": "LHR",
+          "to": "Valencia",
+          "tc": "VLC",
+          "dep": "2026-11-03T15:15:00+00:00",
+          "arr": "2026-11-03T18:45:00+01:00",
+          "status": "booked",
+          "ref": "XBER28",
+          "note": "British Airways · booked by McLaren (Travel Places EIXNYH) · 23 kg bag"
         }
       ]
     },
     {
-      "id": "auto-2026-12-06",
+      "id": "noc",
       "name": "NOC",
-      "sub": "",
-      "start": "2026-12-06",
+      "sub": "Night of Champions · Porsche, Weissach",
+      "start": "2026-12-04",
       "end": "2026-12-06",
       "people": "",
       "items": [
+        {
+          "day": "Sat 5 Dec",
+          "t": "event",
+          "text": "Night of Champions · Porsche Development Centre, Weissach"
+        },
         {
           "day": "Sun 6 Dec",
           "t": "flight",
@@ -463,16 +527,16 @@
           "arr": "2026-12-06T14:20:00+01:00",
           "status": "booked",
           "ref": "VICM6C",
-          "note": "Eurowings · Airbus A319 · Basic fare · underseat bag included"
+          "note": "Eurowings · booked by Team Penske · underseat bag included"
         }
       ]
     },
     {
-      "id": "auto-2026-12-08",
-      "name": "VLC-AMS-MCO-CDG-VLC · Dec 2026",
-      "sub": "",
+      "id": "daytona",
+      "name": "Test Daytona",
+      "sub": "Daytona International Speedway",
       "start": "2026-12-08",
-      "end": "2026-12-08",
+      "end": "2026-12-12",
       "people": "",
       "items": [
         {
@@ -488,7 +552,7 @@
           "arr": "2026-12-08T08:40:00+01:00",
           "status": "booked",
           "ref": "GVN2BM",
-          "note": "Operated by KLM Cityhopper · Business/First · seat 3F · breakfast"
+          "note": "Operated by KLM · business · seat 3F · booked by Team Penske"
         },
         {
           "day": "Tue 8 Dec",
@@ -497,45 +561,41 @@
           "al": "DL",
           "from": "Amsterdam",
           "fc": "AMS",
-          "to": "Orlando Intl Terminal B",
+          "to": "Orlando",
           "tc": "MCO",
           "dep": "2026-12-08T13:00:00+01:00",
           "arr": "2026-12-08T17:05:00-05:00",
           "status": "booked",
           "ref": "GVN2BM",
-          "note": "Business/First · seat 1J · lunch"
-        }
-      ]
-    },
-    {
-      "id": "auto-2026-12-11",
-      "name": "Test Daytona",
-      "sub": "",
-      "start": "2026-12-11",
-      "end": "2026-12-12",
-      "people": "",
-      "items": [
+          "note": "Delta · business · seat 1J"
+        },
+        {
+          "day": "Wed 9 – Fri 11 Dec",
+          "t": "event",
+          "text": "Test Daytona",
+          "note": "At the track Wed 12:30 · leave the track Fri 18:00"
+        },
         {
           "day": "Fri 11 Dec",
           "t": "flight",
           "no": "DL8768",
           "al": "DL",
-          "from": "Orlando Intl Terminal C",
+          "from": "Orlando",
           "fc": "MCO",
-          "to": "Paris Charles de Gaulle Terminal 2E",
+          "to": "Paris CDG",
           "tc": "CDG",
           "dep": "2026-12-11T23:00:00-05:00",
           "arr": "2026-12-12T13:25:00+01:00",
           "status": "booked",
           "ref": "GVN2BM",
-          "note": "Operated by Air France · Business/First · breakfast"
+          "note": "Operated by Air France · business"
         },
         {
           "day": "Sat 12 Dec",
           "t": "flight",
           "no": "DL8348",
           "al": "DL",
-          "from": "Paris Charles de Gaulle Terminal 2G",
+          "from": "Paris CDG",
           "fc": "CDG",
           "to": "Valencia",
           "tc": "VLC",
@@ -543,7 +603,7 @@
           "arr": "2026-12-12T17:50:00+01:00",
           "status": "booked",
           "ref": "GVN2BM",
-          "note": "Operated by HOP · Business/First · seat 1A"
+          "note": "Operated by Air France HOP · business · seat 1A"
         }
       ]
     },
@@ -587,7 +647,7 @@
           "dep": "2026-12-26T18:50:00+01:00",
           "arr": "2026-12-26T23:50:00+03:00",
           "status": "pending",
-          "statusText": "via World of Travel",
+          "statusText": "waiting for tickets",
           "note": "Turkish Airlines · economy"
         },
         {
@@ -602,7 +662,7 @@
           "dep": "2026-12-27T01:55:00+03:00",
           "arr": "2026-12-27T19:30:00+08:00",
           "status": "pending",
-          "statusText": "via World of Travel",
+          "statusText": "waiting for tickets",
           "note": "Turkish Airlines · lands 50 min before the family"
         },
         {
@@ -642,9 +702,17 @@
         },
         {
           "day": "Thu 7 Jan",
-          "t": "event",
-          "text": "Lombok → Bali with the family",
-          "note": "Flight time to be confirmed"
+          "t": "flight",
+          "no": "IW1963",
+          "al": "IW",
+          "from": "Lombok",
+          "fc": "LOP",
+          "to": "Denpasar, Bali",
+          "tc": "DPS",
+          "dep": "2027-01-07T15:15:00+08:00",
+          "arr": "2027-01-07T16:00:00+08:00",
+          "status": "booked",
+          "note": "Wings Air · with the family · World of Travel"
         },
         {
           "day": "Thu 7 Jan",
@@ -658,7 +726,7 @@
           "dep": "2027-01-07T21:10:00+08:00",
           "arr": "2027-01-08T05:40:00+03:00",
           "status": "pending",
-          "statusText": "via World of Travel",
+          "statusText": "waiting for tickets",
           "note": "Turkish Airlines · economy"
         },
         {
@@ -673,7 +741,7 @@
           "dep": "2027-01-08T08:50:00+03:00",
           "arr": "2027-01-08T10:55:00+01:00",
           "status": "pending",
-          "statusText": "via World of Travel",
+          "statusText": "waiting for tickets",
           "note": "Turkish Airlines · economy"
         }
       ]
@@ -681,25 +749,27 @@
   ],
   "plan": [
     {
+      "name": "MTC + SIM MTC",
+      "when": "Sun 15 – Tue 17 Nov"
+    },
+    {
       "name": "Test Portimão",
-      "when": "Tue 24 – Wed 25 Nov"
+      "when": "Mon 23 – Thu 26 Nov"
     },
     {
       "name": "Test Jerez",
-      "when": "Mon 30 Nov – Wed 2 Dec"
+      "when": "Sun 29 Nov – Thu 3 Dec"
     },
     {
-      "name": "SIM Porsche + Night of Champions",
-      "when": "Thu 3 – Sat 5 Dec"
-    },
-    {
-      "name": "Test Daytona",
-      "when": "Fri 11 – Sat 12 Dec"
+      "name": "NOC · flight out",
+      "when": "Thu 3 or Fri 4 Dec"
     },
     {
       "name": "McLaren London",
-      "when": "Mon 14 Dec"
+      "when": "Mon 14 – Wed 16 Dec"
     }
   ],
-  "open": []
+  "open": [
+    "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
+  ]
 }
