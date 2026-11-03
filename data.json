@@ -510,12 +510,52 @@
       "people": "",
       "items": [
         {
+          "day": "Fri 13 Nov",
+          "t": "flight",
+          "no": "EZY8112",
+          "al": "easyJet",
+          "from": "Alicante",
+          "fc": "ALC",
+          "to": "London Gatwick",
+          "tc": "LGW",
+          "dep": "2026-11-13T21:30:00+01:00",
+          "arr": "2026-11-13T23:10:00+00:00",
+          "status": "booked",
+          "ref": "KDN4ZSS",
+          "note": "easyJet · economy · seat 3D · 1 cabin bag, 1 small handbag"
+        },
+        {
           "day": "Fri 13 Nov – Sat 14 Nov",
           "t": "stay",
           "name": "Holmes Hotel London",
           "status": "booked",
           "ref": "6253514833",
           "note": "1 night · Double Room · 2 adults · breakfast not included"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-11-16",
+      "name": "MTC",
+      "sub": "",
+      "start": "2026-11-16",
+      "end": "2026-11-16",
+      "people": "",
+      "items": [
+        {
+          "day": "Mon 16 Nov",
+          "t": "flight",
+          "no": "FR2717",
+          "al": "Ryanair",
+          "from": "London Gatwick",
+          "fc": "LGW",
+          "to": "Alicante",
+          "tc": "ALC",
+          "dep": "2026-11-16T19:20:00+00:00",
+          "arr": "2026-11-16T22:45:00+01:00",
+          "status": "booked",
+          "ref": "BU282Y",
+          "note": "Ryanair · economy · seat 3A · 1 cabin bag, 1 small handbag"
         }
       ]
     },
