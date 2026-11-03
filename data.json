@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02",
+  "updated": "2026-11-03",
   "trips": [
     {
       "id": "atl",
@@ -498,6 +498,24 @@
           "status": "booked",
           "ref": "XBER28",
           "note": "British Airways · booked by McLaren (Travel Places EIXNYH) · 23 kg bag"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-11-13",
+      "name": "MTC",
+      "sub": "",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "people": "",
+      "items": [
+        {
+          "day": "Fri 13 Nov – Sat 14 Nov",
+          "t": "stay",
+          "name": "Holmes Hotel London",
+          "status": "booked",
+          "ref": "6253514833",
+          "note": "1 night · Double Room · 2 adults · breakfast not included"
         }
       ]
     },
