@@ -1,552 +1,54 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "trips": [
     {
-      "id": "atl",
-      "name": "Montreal → Petit Le Mans",
-      "sub": "Petit Le Mans, Road Atlanta",
-      "start": "2026-09-26",
-      "end": "2026-10-05",
-      "people": "with Jacqueline & Emily",
-      "items": [
-        {
-          "day": "Sat 26 Sep",
-          "t": "flight",
-          "no": "AF1493",
-          "al": "AF",
-          "from": "Valencia",
-          "fc": "VLC",
-          "to": "Paris CDG 2G",
-          "tc": "CDG",
-          "dep": "2026-09-26T06:40:00+02:00",
-          "arr": "2026-09-26T08:55:00+02:00",
-          "status": "booked",
-          "ref": "ZAZ6VH",
-          "note": "Air France · 23 kg bag each"
-        },
-        {
-          "day": "Sat 26 Sep",
-          "t": "flight",
-          "no": "AF342",
-          "al": "AF",
-          "from": "Paris CDG 2E",
-          "fc": "CDG",
-          "to": "Montreal",
-          "tc": "YUL",
-          "dep": "2026-09-26T10:30:00+02:00",
-          "arr": "2026-09-26T12:00:00-04:00",
-          "status": "booked",
-          "ref": "ZAZ6VH",
-          "note": "Air France"
-        },
-        {
-          "day": "Sat 26 – Tue 29 Sep",
-          "t": "event",
-          "text": "Montreal"
-        },
-        {
-          "day": "Wed 30 Sep",
-          "t": "flight",
-          "no": "DL2643",
-          "al": "DL",
-          "from": "Montreal",
-          "fc": "YUL",
-          "to": "Atlanta, Terminal I",
-          "tc": "ATL",
-          "dep": "2026-09-30T07:00:00-04:00",
-          "arr": "2026-09-30T09:45:00-04:00",
-          "status": "booked",
-          "ref": "ZAZ6VH",
-          "note": "Delta · 23 kg bag each"
-        },
-        {
-          "day": "Wed 30 Sep – Sun 4 Oct",
-          "t": "stay",
-          "name": "Holiday Inn Express & Suites Braselton",
-          "status": "booked",
-          "note": "4 nights · ~10 min to Road Atlanta · 2069 Hwy 211 NW, Braselton GA"
-        },
-        {
-          "day": "Thu 1 – Sat 3 Oct",
-          "t": "event",
-          "text": "Petit Le Mans · Road Atlanta"
-        },
-        {
-          "day": "Sun 4 Oct",
-          "t": "flight",
-          "no": "KL622",
-          "al": "KL",
-          "from": "Atlanta, Terminal I",
-          "fc": "ATL",
-          "to": "Amsterdam",
-          "tc": "AMS",
-          "dep": "2026-10-04T22:40:00-04:00",
-          "arr": "2026-10-05T13:10:00+02:00",
-          "status": "booked",
-          "ref": "ZAZ6VH",
-          "note": "KLM · 23 kg bag each"
-        }
-      ]
-    },
-    {
-      "id": "zrh",
-      "name": "Fitness check · Zürich",
-      "sub": "Season check · Balgrist",
-      "start": "2026-10-05",
-      "end": "2026-10-06",
-      "people": "",
-      "items": [
-        {
-          "day": "Mon 5 Oct",
-          "t": "flight",
-          "no": "KL1923",
-          "al": "KL",
-          "from": "Amsterdam",
-          "fc": "AMS",
-          "to": "Zürich",
-          "tc": "ZRH",
-          "dep": "2026-10-05T15:20:00+02:00",
-          "arr": "2026-10-05T16:45:00+02:00",
-          "status": "booked",
-          "ref": "Z6JURH",
-          "note": "KLM · seat 6B · hand luggage · booked on Flying Blue miles"
-        },
-        {
-          "day": "Mon 5 – Tue 6 Oct",
-          "t": "stay",
-          "name": "Motel One Zürich",
-          "status": "booked",
-          "ref": "6323050467",
-          "note": "Superior Double · pay at hotel · free cancellation until Sat 3 Oct · breakfast extra",
-          "bullets": [
-            "Stockerstrasse 61, Enge · ~20 min to Balgrist",
-            "Check-in from 15:00 · check-out by 12:00"
-          ]
-        },
-        {
-          "day": "Tue 6 Oct",
-          "t": "event",
-          "time": "09:30",
-          "text": "Season check · Balgrist University Clinic",
-          "note": "Forchstrasse 319 · until 13:30"
-        },
-        {
-          "day": "Tue 6 Oct",
-          "t": "flight",
-          "no": "LX2176",
-          "al": "LX",
-          "from": "Zurich",
-          "fc": "ZRH",
-          "to": "Alicante",
-          "tc": "ALC",
-          "dep": "2026-10-06T16:50:00+02:00",
-          "arr": "2026-10-06T19:10:00+02:00",
-          "status": "booked",
-          "ref": "Z29K6G",
-          "note": "Swiss International Air Lines · economy · seat 08D · 1 piece baggage"
-        }
-      ]
-    },
-    {
-      "id": "mtc-oct",
-      "name": "MTC sim + McLaren Paris",
-      "sub": "Woking · Paris",
-      "start": "2026-10-13",
-      "end": "2026-10-15",
-      "people": "",
-      "items": [
-        {
-          "day": "Tue 13 Oct",
-          "t": "flight",
-          "no": "BA409",
-          "al": "BA",
-          "from": "Valencia",
-          "fc": "VLC",
-          "to": "London Heathrow T3",
-          "tc": "LHR",
-          "dep": "2026-10-13T20:30:00+02:00",
-          "arr": "2026-10-13T21:55:00+01:00",
-          "status": "booked",
-          "ref": "YKQKX3",
-          "note": "British Airways · 23 kg bag"
-        },
-        {
-          "day": "Tue 13 Oct",
-          "t": "event",
-          "time": "21:55",
-          "text": "Transfer Heathrow → Hilton Woking",
-          "note": "EA #61230",
-          "status": "booked"
-        },
-        {
-          "day": "Tue 13 – Wed 14 Oct",
-          "t": "stay",
-          "name": "Hilton Woking",
-          "status": "booked",
-          "ref": "4401483319000",
-          "note": "1 night · booked by McLaren"
-        },
-        {
-          "day": "Wed 14 Oct",
-          "t": "event",
-          "time": "am",
-          "text": "Uber hotel → MTC · sim day"
-        },
-        {
-          "day": "Wed 14 Oct",
-          "t": "event",
-          "time": "15:00",
-          "text": "Car MTC → Heathrow T4",
-          "note": "EA #61219 · with James",
-          "status": "booked"
-        },
-        {
-          "day": "Wed 14 Oct",
-          "t": "flight",
-          "no": "AF1281",
-          "al": "AF",
-          "from": "London Heathrow T4",
-          "fc": "LHR",
-          "to": "Paris CDG 2E",
-          "tc": "CDG",
-          "dep": "2026-10-14T17:35:00+01:00",
-          "arr": "2026-10-14T19:55:00+02:00",
-          "status": "booked",
-          "ref": "Y2EWKX",
-          "note": "Air France · business · seat 1D · Paris hotel & ground via McLaren"
-        },
-        {
-          "day": "Wed 14 – Thu 15 Oct",
-          "t": "stay",
-          "name": "Pullman Paris Montparnasse",
-          "status": "booked",
-          "note": "1 night · 19 Rue du Commandant René Mouchotte, 75014 · Paris transport via Taome / Schneider"
-        },
-        {
-          "day": "Thu 15 Oct",
-          "t": "event",
-          "text": "McLaren Paris"
-        },
-        {
-          "day": "Thu 15 Oct",
-          "t": "flight",
-          "no": "AF1420",
-          "al": "AF",
-          "from": "Paris CDG 2G",
-          "fc": "CDG",
-          "to": "Valencia",
-          "tc": "VLC",
-          "dep": "2026-10-15T14:15:00+02:00",
-          "arr": "2026-10-15T16:15:00+02:00",
-          "status": "booked",
-          "ref": "Y2EWKX",
-          "note": "Air France (HOP) · business · seat 2A"
-        }
-      ]
-    },
-    {
-      "id": "ricard",
-      "name": "Test · Paul Ricard",
-      "sub": "Le Castellet",
-      "start": "2026-10-17",
-      "end": "2026-10-21",
-      "people": "",
-      "items": [
-        {
-          "day": "Sat 17 Oct",
-          "t": "flight",
-          "no": "FR6496",
-          "al": "FR",
-          "from": "Alicante",
-          "fc": "ALC",
-          "to": "Marseille",
-          "tc": "MRS",
-          "dep": "2026-10-17T21:00:00+02:00",
-          "arr": "2026-10-17T22:35:00+02:00",
-          "status": "booked",
-          "ref": "E58D3T",
-          "note": "Ryanair · Priority & 2 Cabin Bags · seat 02A"
-        },
-        {
-          "day": "Sat 17 Oct",
-          "t": "event",
-          "time": "22:35",
-          "text": "Hertz pick-up · Marseille Airport",
-          "note": "ref L729E558046",
-          "status": "booked"
-        },
-        {
-          "day": "Sat 17 – Sun 18 Oct",
-          "t": "stay",
-          "name": "Le Frégate Provence",
-          "status": "booked",
-          "ref": "6528060450",
-          "note": "Sea-view room · breakfast included · golf on site · 24h reception"
-        },
-        {
-          "day": "Sun 18 Oct",
-          "t": "event",
-          "time": "09:00",
-          "text": "Golf lesson · Le Frégate (Frégalon) with Dominique",
-          "note": "Arrive 08:45 · track meeting 13:30"
-        },
-        {
-          "day": "Sat 17 – Wed 21 Oct",
-          "t": "stay",
-          "name": "Grand Prix Hotel",
-          "status": "booked",
-          "note": "4 nights · c/o Ash · booked by McLaren"
-        },
-        {
-          "day": "Sun 18 – Tue 20 Oct",
-          "t": "event",
-          "text": "Test days · driving until midnight on the 20th"
-        },
-        {
-          "day": "Wed 21 Oct",
-          "t": "event",
-          "time": "13:25",
-          "text": "Hertz drop-off · Marseille Airport",
-          "note": "ref L729E558046"
-        },
-        {
-          "day": "Wed 21 Oct",
-          "t": "flight",
-          "no": "FR6455",
-          "al": "FR",
-          "from": "Marseille",
-          "fc": "MRS",
-          "to": "Alicante",
-          "tc": "ALC",
-          "dep": "2026-10-21T15:25:00+02:00",
-          "arr": "2026-10-21T17:00:00+02:00",
-          "status": "booked",
-          "ref": "UYVS8E",
-          "note": "Ryanair · seat 14D · 20 kg bag + priority"
-        }
-      ]
-    },
-    {
-      "id": "mdv",
-      "name": "Germany → Maldives → MTC",
-      "sub": "Gili Lankanfushi · SIM MTC",
-      "start": "2026-10-23",
-      "end": "2026-11-03",
-      "people": "with Jacqueline",
-      "items": [
-        {
-          "day": "Fri 23 Oct",
-          "t": "flight",
-          "no": "EW2531",
-          "al": "EW",
-          "from": "Valencia",
-          "fc": "VLC",
-          "to": "Stuttgart",
-          "tc": "STR",
-          "dep": "2026-10-23T20:30:00+02:00",
-          "arr": "2026-10-23T22:45:00+02:00",
-          "status": "booked",
-          "ref": "GL97WW",
-          "note": "Eurowings · seat 1A · 23 kg bag · with Jacqueline & Emily · to Waiblingen"
-        },
-        {
-          "day": "Sat 24 Oct",
-          "t": "flight",
-          "no": "LX1169",
-          "al": "LX",
-          "from": "Stuttgart T3",
-          "fc": "STR",
-          "to": "Zürich",
-          "tc": "ZRH",
-          "dep": "2026-10-24T15:05:00+02:00",
-          "arr": "2026-10-24T15:50:00+02:00",
-          "status": "booked",
-          "ref": "9LL7QF",
-          "note": "Helvetic for SWISS · Comfort Plus · 23 kg bag each"
-        },
-        {
-          "day": "Sat 24 Oct",
-          "t": "flight",
-          "no": "LX8066",
-          "al": "LX",
-          "from": "Zürich",
-          "fc": "ZRH",
-          "to": "Malé T1",
-          "tc": "MLE",
-          "dep": "2026-10-24T19:10:00+02:00",
-          "arr": "2026-10-25T08:00:00+05:00",
-          "status": "booked",
-          "ref": "9LL7QF",
-          "note": "Edelweiss for SWISS · A350"
-        },
-        {
-          "day": "Sun 25 Oct",
-          "t": "event",
-          "time": "08:00",
-          "text": "Land Malé · speedboat to Gili, 20 min",
-          "status": "included"
-        },
-        {
-          "day": "Sun 25 Oct – Sun 1 Nov",
-          "t": "stay",
-          "name": "Gili Lankanfushi · Gili Lagoon Villa",
-          "status": "booked",
-          "ref": "1182017",
-          "note": "7 nights · breakfast & dinner at Kashiveli · Jetty 3, sunset side · check-in 14:00, check-out 12:00",
-          "bullets": [
-            "Gili conf. #1182017 · Penguin ref 7931 · non-refundable",
-            "Roundtrip speedboat, Louis Roederer on arrival, spa gift, sunset dhoni cruise, $100 credit, afternoon tea",
-            "Late check-out possible at a charge"
-          ]
-        },
-        {
-          "day": "Sun 1 Nov",
-          "t": "event",
-          "text": "Check out · use the resort until the evening boat"
-        },
-        {
-          "day": "Sun 1 Nov",
-          "t": "flight",
-          "no": "TK735",
-          "al": "TK",
-          "from": "Malé, Terminal 1",
-          "fc": "MLE",
-          "to": "Istanbul",
-          "tc": "IST",
-          "dep": "2026-11-01T22:35:00+05:00",
-          "arr": "2026-11-02T05:10:00+03:00",
-          "status": "booked",
-          "ref": "SED4FE",
-          "note": "Turkish · seats 10A/10B · 23 kg bag each · with Jacqueline"
-        },
-        {
-          "day": "Mon 2 Nov",
-          "t": "stay",
-          "name": "YOTELAIR Istanbul Airport (airside)",
-          "status": "booked",
-          "ref": "847019",
-          "note": "05:00–08:00 · in the duty-free area · gate D13 about 5–10 min"
-        },
-        {
-          "day": "Mon 2 Nov",
-          "t": "flight",
-          "no": "TK1979",
-          "al": "TK",
-          "from": "Istanbul",
-          "fc": "IST",
-          "to": "London Heathrow T2",
-          "tc": "LHR",
-          "dep": "2026-11-02T08:40:00+03:00",
-          "arr": "2026-11-02T09:45:00+00:00",
-          "status": "booked",
-          "ref": "S3ELQ8",
-          "note": "Turkish · 23 kg bag · Jacqueline on TK1701 to Stuttgart"
-        },
-        {
-          "day": "Mon 2 Nov",
-          "t": "event",
-          "text": "Transfer Heathrow T2 → MTC (H Block)",
-          "status": "booked",
-          "ref": "061633",
-          "note": "Booked by McLaren · driver waits on landing"
-        },
-        {
-          "day": "Mon 2 Nov",
-          "t": "event",
-          "text": "SIM MTC",
-          "note": "McLaren Technology Centre, Woking"
-        },
-        {
-          "day": "Mon 2 Nov",
-          "t": "event",
-          "text": "Uber MTC → Hilton Woking",
-          "note": "McLaren Uber Flexi link · when you finish"
-        },
-        {
-          "day": "Mon 2 – Tue 3 Nov",
-          "t": "stay",
-          "name": "Hilton Woking",
-          "status": "booked",
-          "ref": "3111017656",
-          "note": "1 night · King room · booked by McLaren · Church Street West, Woking"
-        },
-        {
-          "day": "Tue 3 Nov",
-          "t": "event",
-          "text": "Uber Hilton Woking → MTC",
-          "note": "McLaren Uber Flexi link · morning"
-        },
-        {
-          "day": "Tue 3 Nov",
-          "t": "event",
-          "text": "Transfer MTC (B Block) → Heathrow T3",
-          "status": "booked",
-          "ref": "061634",
-          "note": "Booked by McLaren · 13:00"
-        },
-        {
-          "day": "Tue 3 Nov",
-          "t": "flight",
-          "no": "BA410",
-          "al": "BA",
-          "from": "London Heathrow T3",
-          "fc": "LHR",
-          "to": "Valencia",
-          "tc": "VLC",
-          "dep": "2026-11-03T15:15:00+00:00",
-          "arr": "2026-11-03T18:45:00+01:00",
-          "status": "booked",
-          "ref": "XBER28",
-          "note": "British Airways · booked by McLaren (Travel Places EIXNYH) · 23 kg bag"
-        }
-      ]
-    },
-    {
-      "id": "auto-2026-11-13",
+      "id": "mtc-nov",
       "name": "MTC",
-      "sub": "",
+      "sub": "London weekend · MTC, Woking",
       "start": "2026-11-13",
-      "end": "2026-11-14",
-      "people": "",
+      "end": "2026-11-16",
+      "people": "with Jacqueline & Emily (Fri–Sun)",
       "items": [
         {
           "day": "Fri 13 Nov",
           "t": "flight",
           "no": "EZY8112",
-          "al": "easyJet",
+          "al": "U2",
           "from": "Alicante",
           "fc": "ALC",
-          "to": "London Gatwick",
+          "to": "London Gatwick North",
           "tc": "LGW",
           "dep": "2026-11-13T21:30:00+01:00",
           "arr": "2026-11-13T23:10:00+00:00",
           "status": "booked",
           "ref": "KDN4ZSS",
-          "note": "easyJet · economy · seat 3D · 1 cabin bag, 1 small handbag"
+          "note": "easyJet · seat 3D · cabin bag + small bag · Jacqueline & Emily 3F/3E (ref KDN4Z8Z) · booked via Penguin"
         },
         {
-          "day": "Fri 13 Nov – Sat 14 Nov",
+          "day": "Fri 13 – Sat 14 Nov",
           "t": "stay",
           "name": "Holmes Hotel London",
           "status": "booked",
           "ref": "6253514833",
-          "note": "1 night · Double Room · 2 adults · breakfast not included"
-        }
-      ]
-    },
-    {
-      "id": "auto-2026-11-16",
-      "name": "MTC",
-      "sub": "",
-      "start": "2026-11-16",
-      "end": "2026-11-16",
-      "people": "",
-      "items": [
+          "note": "1 night · Double Room · 83 Chiltern Street, Marylebone · breakfast £30 pp extra · non-refundable · Booking.com"
+        },
+        {
+          "day": "Sun 15 Nov",
+          "t": "event",
+          "text": "MTC",
+          "note": "At MTC by 10:30 · Jacqueline & Emily fly home EZY8111 Gatwick 16:50"
+        },
+        {
+          "day": "Mon 16 Nov",
+          "t": "event",
+          "text": "MTC",
+          "note": "Leave MTC after 16:30 · ~45 min to Gatwick"
+        },
         {
           "day": "Mon 16 Nov",
           "t": "flight",
           "no": "FR2717",
-          "al": "Ryanair",
+          "al": "FR",
           "from": "London Gatwick",
           "fc": "LGW",
           "to": "Alicante",
@@ -555,7 +57,7 @@
           "arr": "2026-11-16T22:45:00+01:00",
           "status": "booked",
           "ref": "BU282Y",
-          "note": "Ryanair · economy · seat 3A · 1 cabin bag, 1 small handbag"
+          "note": "Ryanair · seat 3A · cabin bag + small bag · booked via Penguin"
         }
       ]
     },
@@ -807,10 +309,6 @@
   ],
   "plan": [
     {
-      "name": "MTC + SIM MTC",
-      "when": "Sun 15 – Tue 17 Nov"
-    },
-    {
       "name": "Test Portimão",
       "when": "Mon 23 – Thu 26 Nov"
     },
@@ -828,6 +326,8 @@
     }
   ],
   "open": [
+    "London: hotel for Sat 14 and Sun 15 Nov (Holmes is booked for Fri night only, 2 adults)",
+    "MTC transfers Sun 15 (London → MTC) and Mon 16 (MTC → Gatwick)",
     "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
   ]
 }
