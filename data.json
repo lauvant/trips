@@ -1,10 +1,10 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-10",
   "trips": [
     {
       "id": "mtc-nov",
       "name": "MTC",
-      "sub": "London weekend · MTC, Woking",
+      "sub": "London weekend · MRC MTC Event · MTC Immersion Day",
       "start": "2026-11-13",
       "end": "2026-11-16",
       "people": "with Jacqueline & Emily (Fri–Sun)",
@@ -33,16 +33,62 @@
           "note": "1 night · Double Room · 83 Chiltern Street, Marylebone · breakfast £30 pp extra · non-refundable · Booking.com"
         },
         {
+          "day": "Sat 14 Nov",
+          "t": "event",
+          "text": "Free time in London",
+          "note": "To Woking in the afternoon, own way"
+        },
+        {
+          "day": "Sat 14 – Mon 16 Nov",
+          "t": "stay",
+          "name": "Hilton Woking",
+          "status": "booked",
+          "ref": "3115192823",
+          "note": "2 nights · booked by McLaren · Church Street West, Woking · check-out Mon 16"
+        },
+        {
           "day": "Sun 15 Nov",
           "t": "event",
-          "text": "MTC",
-          "note": "At MTC by 10:30 · Jacqueline & Emily fly home EZY8111 Gatwick 16:50"
+          "text": "Transfer Hilton Woking → MTC",
+          "status": "booked",
+          "ref": "61924",
+          "note": "09:15 · with Jacqueline & Emily · booked by McLaren"
+        },
+        {
+          "day": "Sun 15 Nov",
+          "t": "event",
+          "text": "MRC MTC Event",
+          "note": "McLaren Technology Centre, Woking"
+        },
+        {
+          "day": "Sun 15 Nov",
+          "t": "event",
+          "text": "Transfer MTC (H Block) → Hilton Woking",
+          "status": "booked",
+          "ref": "61925",
+          "note": "15:30 · booked by McLaren"
         },
         {
           "day": "Mon 16 Nov",
           "t": "event",
-          "text": "MTC",
-          "note": "Leave MTC after 16:30 · ~45 min to Gatwick"
+          "text": "Transfer Hilton Woking → MTC",
+          "status": "booked",
+          "ref": "61926",
+          "note": "08:30 · with all drivers · booked by McLaren"
+        },
+        {
+          "day": "Mon 16 Nov",
+          "t": "event",
+          "text": "MTC Immersion Day",
+          "note": "McLaren Technology Centre, Woking"
+        },
+        {
+          "day": "Mon 16 Nov",
+          "t": "event",
+          "text": "Transfer MTC (H Block) → Gatwick",
+          "status": "booked",
+          "ref": "61821",
+          "note": "16:45 · booked by McLaren"
         },
         {
           "day": "Mon 16 Nov",
@@ -326,8 +372,7 @@
     }
   ],
   "open": [
-    "London: hotel for Sat 14 and Sun 15 Nov (Holmes is booked for Fri night only, 2 adults)",
-    "MTC transfers Sun 15 (London → MTC) and Mon 16 (MTC → Gatwick)",
+    "Jacqueline & Emily: getting from the MTC event to Gatwick for EZY8111 Sun 15 Nov 16:50",
     "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
   ]
 }
