@@ -2,124 +2,18 @@
   "updated": "2026-11-17",
   "trips": [
     {
-      "id": "mtc-nov",
-      "name": "MTC",
-      "sub": "London weekend · MRC MTC Event · MTC Immersion Day",
-      "start": "2026-11-13",
-      "end": "2026-11-16",
-      "people": "with Jacqueline & Emily (Fri–Sun)",
-      "items": [
-        {
-          "day": "Fri 13 Nov",
-          "t": "flight",
-          "no": "EZY8112",
-          "al": "U2",
-          "from": "Alicante",
-          "fc": "ALC",
-          "to": "London Gatwick North",
-          "tc": "LGW",
-          "dep": "2026-11-13T21:30:00+01:00",
-          "arr": "2026-11-13T23:10:00+00:00",
-          "status": "booked",
-          "ref": "KDN4ZSS",
-          "note": "easyJet · seat 3D · cabin bag + small bag · Jacqueline & Emily 3F/3E (ref KDN4Z8Z) · booked via Penguin"
-        },
-        {
-          "day": "Fri 13 – Sat 14 Nov",
-          "t": "stay",
-          "name": "Holmes Hotel London",
-          "status": "booked",
-          "ref": "6253514833",
-          "note": "1 night · Double Room · 83 Chiltern Street, Marylebone · breakfast £30 pp extra · non-refundable · Booking.com"
-        },
-        {
-          "day": "Sat 14 Nov",
-          "t": "event",
-          "text": "Free time in London",
-          "note": "To Woking in the afternoon, own way"
-        },
-        {
-          "day": "Sat 14 – Mon 16 Nov",
-          "t": "stay",
-          "name": "Hilton Woking",
-          "status": "booked",
-          "ref": "3115192823",
-          "note": "2 nights · booked by McLaren · Church Street West, Woking · check-out Mon 16"
-        },
-        {
-          "day": "Sun 15 Nov",
-          "t": "event",
-          "text": "Transfer Hilton Woking → MTC",
-          "status": "booked",
-          "ref": "61924",
-          "note": "09:15 · with Jacqueline & Emily · booked by McLaren"
-        },
-        {
-          "day": "Sun 15 Nov",
-          "t": "event",
-          "text": "MRC MTC Event",
-          "note": "McLaren Technology Centre, Woking"
-        },
-        {
-          "day": "Sun 15 Nov",
-          "t": "event",
-          "text": "Transfer MTC (H Block) → Hilton Woking",
-          "status": "booked",
-          "ref": "61925",
-          "note": "15:30 · booked by McLaren"
-        },
-        {
-          "day": "Mon 16 Nov",
-          "t": "event",
-          "text": "Transfer Hilton Woking → MTC",
-          "status": "booked",
-          "ref": "61926",
-          "note": "08:30 · with all drivers · booked by McLaren"
-        },
-        {
-          "day": "Mon 16 Nov",
-          "t": "event",
-          "text": "MTC Immersion Day",
-          "note": "McLaren Technology Centre, Woking"
-        },
-        {
-          "day": "Mon 16 Nov",
-          "t": "event",
-          "text": "Transfer MTC (H Block) → Gatwick",
-          "status": "booked",
-          "ref": "61821",
-          "note": "16:45 · booked by McLaren"
-        },
-        {
-          "day": "Mon 16 Nov",
-          "t": "flight",
-          "no": "FR2717",
-          "al": "FR",
-          "from": "London Gatwick",
-          "fc": "LGW",
-          "to": "Alicante",
-          "tc": "ALC",
-          "dep": "2026-11-16T19:20:00+00:00",
-          "arr": "2026-11-16T22:45:00+01:00",
-          "status": "booked",
-          "ref": "BU282Y",
-          "note": "Ryanair · seat 3A · cabin bag + small bag · booked via Penguin"
-        }
-      ]
-    },
-    {
-      "id": "auto-2026-11-23",
-      "name": "Test Portimao",
-      "sub": "",
+      "id": "portimao",
+      "name": "Test Portimão",
+      "sub": "McLaren · Autódromo Internacional do Algarve",
       "start": "2026-11-23",
-      "end": "2026-11-23",
+      "end": "2026-11-26",
       "people": "",
       "items": [
         {
           "day": "Mon 23 Nov",
           "t": "flight",
           "no": "FR2207",
-          "al": "Ryanair",
+          "al": "FR",
           "from": "Valencia",
           "fc": "VLC",
           "to": "Seville",
@@ -128,18 +22,22 @@
           "arr": "2026-11-23T07:20:00+01:00",
           "status": "booked",
           "ref": "DUMMFY",
-          "note": "economy · seat 28D · checked bag 20kg · fast track · priority & 2 cabin bags"
-        }
-      ]
-    },
-    {
-      "id": "auto-2026-11-26",
-      "name": "Test Portimao",
-      "sub": "",
-      "start": "2026-11-26",
-      "end": "2026-11-26",
-      "people": "",
-      "items": [
+          "note": "Ryanair · seat 28D · checked bag 20kg · fast track · priority & 2 cabin bags · booked by McLaren"
+        },
+        {
+          "day": "Mon 23 – Thu 26 Nov",
+          "t": "event",
+          "text": "Rental car Enterprise · Seville airport",
+          "status": "booked",
+          "ref": "1798672941COUNT",
+          "note": "Pick-up Mon 07:30 · drop-off Thu 09:00 · Premium automatic · booked via CT Associates (94IYCK) · ~2h15 drive to Portimão"
+        },
+        {
+          "day": "Mon 23 – Wed 25 Nov",
+          "t": "event",
+          "text": "Test Portimão",
+          "note": "Autódromo Internacional do Algarve"
+        },
         {
           "day": "Thu 26 Nov",
           "t": "flight",
@@ -153,7 +51,7 @@
           "arr": "2026-11-26T10:55:00+01:00",
           "status": "booked",
           "ref": "FZ4JVI",
-          "note": "Ryanair · seat 24D · checked bag 20kg, fast track, priority & 2 cabin bags"
+          "note": "Ryanair · seat 24D · checked bag 20kg · fast track · priority & 2 cabin bags · booked by McLaren"
         }
       ]
     },
@@ -405,10 +303,6 @@
   ],
   "plan": [
     {
-      "name": "Test Portimão",
-      "when": "Mon 23 – Thu 26 Nov"
-    },
-    {
       "name": "Test Jerez",
       "when": "Sun 29 Nov – Thu 3 Dec"
     },
@@ -417,12 +311,12 @@
       "when": "Thu 3 or Fri 4 Dec"
     },
     {
-      "name": "McLaren London",
+      "name": "London (O2) + United Autosports",
       "when": "Mon 14 – Wed 16 Dec"
     }
   ],
   "open": [
-    "Jacqueline & Emily: getting from the MTC event to Gatwick for EZY8111 Sun 15 Nov 16:50",
+    "Portimão: hotel — no confirmation seen yet",
     "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
   ]
 }
