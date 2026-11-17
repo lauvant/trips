@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10",
+  "updated": "2026-11-17",
   "trips": [
     {
       "id": "mtc-nov",
@@ -104,6 +104,56 @@
           "status": "booked",
           "ref": "BU282Y",
           "note": "Ryanair · seat 3A · cabin bag + small bag · booked via Penguin"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-11-23",
+      "name": "Test Portimao",
+      "sub": "",
+      "start": "2026-11-23",
+      "end": "2026-11-23",
+      "people": "",
+      "items": [
+        {
+          "day": "Mon 23 Nov",
+          "t": "flight",
+          "no": "FR2207",
+          "al": "Ryanair",
+          "from": "Valencia",
+          "fc": "VLC",
+          "to": "Seville",
+          "tc": "SVQ",
+          "dep": "2026-11-23T06:05:00+01:00",
+          "arr": "2026-11-23T07:20:00+01:00",
+          "status": "booked",
+          "ref": "DUMMFY",
+          "note": "economy · seat 28D · checked bag 20kg · fast track · priority & 2 cabin bags"
+        }
+      ]
+    },
+    {
+      "id": "auto-2026-11-26",
+      "name": "Test Portimao",
+      "sub": "",
+      "start": "2026-11-26",
+      "end": "2026-11-26",
+      "people": "",
+      "items": [
+        {
+          "day": "Thu 26 Nov",
+          "t": "flight",
+          "no": "FR4816",
+          "al": "FR",
+          "from": "Seville",
+          "fc": "SVQ",
+          "to": "Alicante",
+          "tc": "ALC",
+          "dep": "2026-11-26T09:40:00+01:00",
+          "arr": "2026-11-26T10:55:00+01:00",
+          "status": "booked",
+          "ref": "FZ4JVI",
+          "note": "Ryanair · seat 24D · checked bag 20kg, fast track, priority & 2 cabin bags"
         }
       ]
     },
