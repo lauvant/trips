@@ -67,16 +67,16 @@
           "day": "Sun 29 Nov",
           "t": "flight",
           "no": "VY1727",
-          "al": "Vueling Airlines",
+          "al": "VY",
           "from": "Valencia",
           "fc": "VLC",
-          "to": "Seville",
+          "to": "Sevilla",
           "tc": "SVQ",
           "dep": "2026-11-29T13:05:00+01:00",
           "arr": "2026-11-29T14:20:00+01:00",
           "status": "booked",
           "ref": "TIKMUS",
-          "note": "Economy · seat 1-A · A320"
+          "note": "Vueling · economy · seat 1A · 25 kg bag"
         }
       ]
     },
@@ -93,15 +93,15 @@
           "t": "flight",
           "no": "EW2537",
           "al": "Eurowings",
-          "from": "Malaga (AGP)",
+          "from": "Malaga",
           "fc": "AGP",
-          "to": "Stuttgart (STR)",
+          "to": "Stuttgart Terminal 3",
           "tc": "STR",
           "dep": "2026-12-04T09:55:00+01:00",
           "arr": "2026-12-04T12:35:00+01:00",
           "status": "booked",
           "ref": "NJVY7Z",
-          "note": "Eurowings · economy (S) · seat 4A · Melon ref 9O3PH7"
+          "note": "Economy · seat 4A · 23 kg bag"
         },
         {
           "day": "Sat 5 Dec",
