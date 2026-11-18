@@ -56,11 +56,11 @@
       ]
     },
     {
-      "id": "auto-2026-11-29",
+      "id": "jerez",
       "name": "Test Jerez",
-      "sub": "",
+      "sub": "McLaren · Circuito de Jerez",
       "start": "2026-11-29",
-      "end": "2026-11-29",
+      "end": "2026-12-04",
       "people": "",
       "items": [
         {
@@ -70,13 +70,33 @@
           "al": "VY",
           "from": "Valencia",
           "fc": "VLC",
-          "to": "Sevilla",
+          "to": "Seville",
           "tc": "SVQ",
           "dep": "2026-11-29T13:05:00+01:00",
           "arr": "2026-11-29T14:20:00+01:00",
           "status": "booked",
           "ref": "TIKMUS",
-          "note": "Vueling · economy · seat 1A · 25 kg bag"
+          "note": "Vueling · seat 1A · 25 kg bag · booked by McLaren (CT 9NZYIK) · online check-in uses lauren.peel.supplier@corptraveller.co.uk"
+        },
+        {
+          "day": "Sun 29 Nov – Fri 4 Dec",
+          "t": "event",
+          "text": "Rental car Sixt · Seville airport → Málaga airport",
+          "status": "booked",
+          "ref": "9741750141",
+          "note": "Pick-up Sun 14:30 Seville · drop-off Fri 09:00 Málaga T2/T3 arrivals · Compact Elite automatic · booked via CT Associates (9NZYIK) · ~1h Seville → Jerez"
+        },
+        {
+          "day": "Mon 30 Nov – Thu 3 Dec",
+          "t": "event",
+          "text": "Test Jerez",
+          "note": "Circuito de Jerez – Ángel Nieto"
+        },
+        {
+          "day": "Fri 4 Dec",
+          "t": "event",
+          "text": "Drive to Málaga airport",
+          "note": "About 2h30 from Jerez · drop the car by 09:00 · EW2537 to Stuttgart 09:55"
         }
       ]
     },
@@ -92,7 +112,7 @@
           "day": "Fri 4 Dec",
           "t": "flight",
           "no": "EW2537",
-          "al": "Eurowings",
+          "al": "EW",
           "from": "Malaga",
           "fc": "AGP",
           "to": "Stuttgart Terminal 3",
@@ -101,7 +121,7 @@
           "arr": "2026-12-04T12:35:00+01:00",
           "status": "booked",
           "ref": "NJVY7Z",
-          "note": "Economy · seat 4A · 23 kg bag"
+          "note": "Eurowings · seat 4A · 23 kg bag · booked by McLaren (CT 9O3PH7)"
         },
         {
           "day": "Sat 5 Dec",
@@ -343,20 +363,13 @@
   ],
   "plan": [
     {
-      "name": "Test Jerez",
-      "when": "Sun 29 Nov – Thu 3 Dec"
-    },
-    {
-      "name": "NOC · flight out",
-      "when": "Thu 3 or Fri 4 Dec"
-    },
-    {
       "name": "London (O2) + United Autosports",
       "when": "Mon 14 – Wed 16 Dec"
     }
   ],
   "open": [
     "Portimão: hotel — no confirmation seen yet",
+    "Jerez: hotel — no confirmation seen yet",
     "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
   ]
 }
