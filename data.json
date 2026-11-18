@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "trips": [
     {
       "id": "portimao",
@@ -56,6 +56,31 @@
       ]
     },
     {
+      "id": "auto-2026-11-29",
+      "name": "Test Jerez",
+      "sub": "",
+      "start": "2026-11-29",
+      "end": "2026-11-29",
+      "people": "",
+      "items": [
+        {
+          "day": "Sun 29 Nov",
+          "t": "flight",
+          "no": "VY1727",
+          "al": "Vueling Airlines",
+          "from": "Valencia",
+          "fc": "VLC",
+          "to": "Seville",
+          "tc": "SVQ",
+          "dep": "2026-11-29T13:05:00+01:00",
+          "arr": "2026-11-29T14:20:00+01:00",
+          "status": "booked",
+          "ref": "TIKMUS",
+          "note": "Economy · seat 1-A · A320"
+        }
+      ]
+    },
+    {
       "id": "noc",
       "name": "NOC",
       "sub": "Night of Champions · Porsche, Weissach",
@@ -63,6 +88,21 @@
       "end": "2026-12-06",
       "people": "",
       "items": [
+        {
+          "day": "Fri 4 Dec",
+          "t": "flight",
+          "no": "EW2537",
+          "al": "Eurowings",
+          "from": "Malaga (AGP)",
+          "fc": "AGP",
+          "to": "Stuttgart (STR)",
+          "tc": "STR",
+          "dep": "2026-12-04T09:55:00+01:00",
+          "arr": "2026-12-04T12:35:00+01:00",
+          "status": "booked",
+          "ref": "NJVY7Z",
+          "note": "Eurowings · economy (S) · seat 4A · Melon ref 9O3PH7"
+        },
         {
           "day": "Sat 5 Dec",
           "t": "event",
