@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-20",
   "trips": [
     {
       "id": "portimao",
@@ -33,10 +33,23 @@
           "note": "Pick-up Mon 07:30 · drop-off Thu 09:00 · Premium automatic · booked via CT Associates (94IYCK) · ~2h15 drive to Portimão"
         },
         {
-          "day": "Mon 23 – Wed 25 Nov",
+          "day": "Mon 23 – Thu 26 Nov",
+          "t": "stay",
+          "name": "Penina Hotel & Golf Resort",
+          "status": "booked",
+          "note": "3 nights · booked by McLaren · Portimão · check-out Thu 26"
+        },
+        {
+          "day": "Tue 24 – Wed 25 Nov",
           "t": "event",
           "text": "Test Portimão",
-          "note": "Autódromo Internacional do Algarve"
+          "note": "Autódromo Internacional do Algarve · long run Wed 00:00–23:59 (Portugal time)"
+        },
+        {
+          "day": "Thu 26 Nov",
+          "t": "event",
+          "text": "Drive Portimão → Seville airport",
+          "note": "About 2h15 · drop the car at Enterprise by 09:00 Spanish time"
         },
         {
           "day": "Thu 26 Nov",
@@ -368,7 +381,6 @@
     }
   ],
   "open": [
-    "Portimão: hotel — no confirmation seen yet",
     "Jerez: hotel — no confirmation seen yet",
     "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
   ]
