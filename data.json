@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-24",
   "trips": [
     {
       "id": "portimao",
@@ -100,6 +100,13 @@
           "note": "Pick-up Sun 14:30 Seville · drop-off Fri 09:00 Málaga T2/T3 arrivals · Compact Elite automatic · booked via CT Associates (9NZYIK) · ~1h Seville → Jerez"
         },
         {
+          "day": "Sun 29 Nov – Fri 4 Dec",
+          "t": "stay",
+          "name": "Barceló Montecastillo",
+          "status": "booked",
+          "note": "5 nights · booked by McLaren · Av. de Montecastillo, Km. 6, Jerez · next to the circuit · check-out Fri 4"
+        },
+        {
           "day": "Mon 30 Nov – Thu 3 Dec",
           "t": "event",
           "text": "Test Jerez",
@@ -109,7 +116,7 @@
           "day": "Fri 4 Dec",
           "t": "event",
           "text": "Drive to Málaga airport",
-          "note": "About 2h30 from Jerez · drop the car by 09:00 · EW2537 to Stuttgart 09:55"
+          "note": "About 2h30 from the hotel · leave by ~06:15 · drop the car by 09:00 · EW2537 to Stuttgart 09:55"
         }
       ]
     },
@@ -381,7 +388,6 @@
     }
   ],
   "open": [
-    "Jerez: hotel — no confirmation seen yet",
     "Bali: Turkish tickets (Stuttgart → Bali, Bali → Valencia) — waiting for World of Travel to send them"
   ]
 }
